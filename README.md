@@ -45,6 +45,7 @@ yarn commit
 - [@waldronmatt/prettier-config](https://github.com/shareable-configs/tree/main/packages/prettier-config)
 - [@waldronmatt/semantic-release-config](https://github.com/shareable-configs/tree/main/packages/semantic-release-config)
 - [@waldronmatt/stylelint-config](https://github.com/shareable-configs/tree/main/packages/stylelint-config)
+- [@waldronmatt/webpack-config](https://github.com/shareable-configs/tree/main/packages/webpack-config)
 
 ## Tools
 
@@ -74,9 +75,7 @@ yarn commit
 
 ### Automated Workflows
 
-- [GitHub Actions](https://docs.github.com/en/actions) - Automates execution of workflows.
-  - Executes lerna bootstraping, versioning, and publishing automatically
-  - Publishes to the NPM and GitHub Package Registry for changed packages
+- [GitHub Actions](https://docs.github.com/en/actions) - Automates bootstraping, versioning, and publishing to NPM.
 - [Dependabot](https://github.com/dependabot) - Automated dependency updates
 - [CodeQL](https://codeql.github.com/) - discovers vulnerabilities
 
