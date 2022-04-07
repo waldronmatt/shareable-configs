@@ -1,0 +1,39 @@
+{
+  "name": "@waldronmatt/postcss-config",
+  "version": "1.2.1",
+  "description": "A shareable postcss configuration.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldronmatt/shareable-configs.git",
+    "directory": "packages/postcss-config"
+  },
+  "keywords": [
+    "postcss",
+    "postcss-config"
+  ],
+  "author": "Matthew Waldron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+  },
+  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/postcss-config#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss-100vh-fix": "^1.0.2",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^7.3.1"
+  },
+  "peerDependencies": {
+    "postcss": ">= 8"
+  }
+}

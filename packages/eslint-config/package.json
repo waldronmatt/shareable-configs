@@ -1,0 +1,43 @@
+{
+  "name": "@waldronmatt/eslint-config",
+  "version": "1.1.2",
+  "description": "A shareable eslint configuration.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "ts.js"
+  ],
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldronmatt/shareable-configs.git",
+    "directory": "packages/eslint-config"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Matthew Waldron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+  },
+  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/eslint-config#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.8.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8"
+  }
+}

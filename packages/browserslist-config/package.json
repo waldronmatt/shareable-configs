@@ -1,0 +1,30 @@
+{
+  "name": "@waldronmatt/browserslist-config",
+  "version": "1.1.1",
+  "description": "A shareable browserslist configuration.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldronmatt/shareable-configs.git",
+    "directory": "packages/browserslist-config"
+  },
+  "keywords": [
+    "browserslist",
+    "browserslist-config"
+  ],
+  "author": "Matthew Waldron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+  },
+  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/browserslist-config#readme"
+}

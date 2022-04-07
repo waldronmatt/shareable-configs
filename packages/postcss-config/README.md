@@ -1,0 +1,30 @@
+# Postcss Config
+
+My personal shareable postcss configuration.
+
+## Install
+
+```bash
+npm i --save-dev postcss @waldronmatt/postcss-config
+```
+
+## Usage
+
+**`postcss.config.js`**
+
+```js
+module.exports = require('@waldronmatt/postcss-config');
+```
+
+## Under The Hood
+
+### `index.js`
+
+- `autoprefixer`
+- `postcss-100vh-fix`
+- `postcss-flexbugs-fixes`
+- `postcss-preset-env`
+
+## License
+
+MIT

@@ -1,0 +1,56 @@
+{
+  "name": "@waldronmatt/shareable-configs",
+  "private": true,
+  "author": "Matthew Waldron",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldronmatt/shareable-configs.git"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+  },
+  "homepage": "https://github.com/waldronmatt/shareable-configs#readme",
+  "simple-git-hooks": {
+    "pre-commit": "yarn lint-staged",
+    "commit-msg": "yarn commitlint --edit $1",
+    "pre-push": "yarn run lint"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix"
+    ]
+  },
+  "scripts": {
+    "lint:js": "eslint --fix .",
+    "lint": "yarn run lint:js",
+    "commit": "git-cz",
+    "bootstrap": "lerna bootstrap",
+    "bootstrap:ci": "lerna bootstrap -- --frozen-lockfile --ignore-engines",
+    "publish:ci": "lerna publish from-package --yes --no-verify-access",
+    "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "lerna": "^4.0.0",
+    "lint-staged": "^12.3.7",
+    "prettier": "^2.6.2",
+    "simple-git-hooks": "^2.7.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

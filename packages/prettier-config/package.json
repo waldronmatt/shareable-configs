@@ -1,0 +1,33 @@
+{
+  "name": "@waldronmatt/prettier-config",
+  "version": "1.2.1",
+  "description": "A shareable prettier configuration.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldronmatt/shareable-configs.git",
+    "directory": "packages/prettier-config"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "author": "Matthew Waldron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+  },
+  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/prettier-config#readme",
+  "peerDependencies": {
+    "prettier": ">= 2"
+  }
+}
