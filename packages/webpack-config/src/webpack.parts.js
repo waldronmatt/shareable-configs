@@ -28,7 +28,7 @@ const parts = isProduction => {
   ];
 
   /**
-   * Loads CSS files. (Loaded by default)
+   * Loads CSS files.
    *
    * `MiniCssExtractPlugin.loader` for `prod` builds
    *
@@ -90,7 +90,6 @@ const parts = isProduction => {
 
   /**
    * Customize the output path for styles for `prod` builds.
-   * (Loaded by default)
    *
    * @param {string} path
    */
@@ -118,7 +117,7 @@ const parts = isProduction => {
   });
 
   /**
-   * Load `.js` files. (Loaded by default)
+   * Load `.js` files.
    *
    * @param {string} target
    *
@@ -204,9 +203,6 @@ const parts = isProduction => {
         },
       ],
     },
-    plugins: [!isProduction ? new ForkTsCheckerWebpackPlugin() : false].filter(
-      Boolean
-    ),
   });
 
   /**
@@ -237,13 +233,19 @@ const parts = isProduction => {
         },
       ],
     },
+  });
+
+  /**
+   * Enable TypeScript checking for development builds.
+   */
+  module.exports.enableTypeChecking = () => ({
     plugins: [!isProduction ? new ForkTsCheckerWebpackPlugin() : false].filter(
       Boolean
     ),
   });
 
   /**
-   * Customize the output path for scripts. (Loaded by default)
+   * Customize the output path for scripts.
    *
    * @param {string} path
    */

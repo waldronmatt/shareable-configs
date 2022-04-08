@@ -131,6 +131,7 @@ const { baseParts } = require('@waldronmatt/webpack-config');
 - `baseParts.loadJSX()`
 - `baseParts.loadTS()`
 - `baseParts.loadTSX()`
+- `baseParts.enableTypeChecking()`
 - `baseParts.setScriptOutputPath()`
 - `baseParts.loadImagesAsFiles()`
 - `baseParts.loadImagesAsFilesOrInline()`
