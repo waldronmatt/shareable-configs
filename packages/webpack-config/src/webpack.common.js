@@ -2,11 +2,11 @@ const { merge } = require('webpack-merge');
 const parts = require('./webpack.parts');
 
 const commonConfig = isProduction => {
-  // pass `isProduction` environment variable into your parts file
+  // pass `isProduction` environment variable into our parts file
   parts(isProduction);
 
-  // destructure parts modules
-  const { setStyleOutputPath, setScriptOutputPath, loadCSS, loadJS } = parts;
+  // optionally destructure parts modules for use in our base config
+  // const { loadJS } = parts;
 
   return merge([
     {
@@ -26,10 +26,9 @@ const commonConfig = isProduction => {
         runtimeChunk: 'single',
       },
     },
-    setStyleOutputPath(),
-    setScriptOutputPath(),
-    loadCSS(),
-    loadJS(),
+
+    // optionally load parts in our base config
+    // loadJS(),
   ]);
 };
 
