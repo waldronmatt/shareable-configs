@@ -30,9 +30,9 @@ const parts = isProduction => {
   /**
    * Loads CSS files.
    *
-   * `MiniCssExtractPlugin.loader` for `prod` builds
+   * `MiniCssExtractPlugin.loader` for `production` builds
    *
-   * `style-loader` for `dev` builds
+   * `style-loader` for `development` builds
    *
    * `css-loader`
    *
@@ -57,9 +57,9 @@ const parts = isProduction => {
   /**
    * Loads Sass files.
    *
-   * `MiniCssExtractPlugin.loader` for `prod` builds
+   * `MiniCssExtractPlugin.loader` for `production` builds
    *
-   * `style-loader` for `dev` builds
+   * `style-loader` for `development` builds
    *
    * `css-loader`
    *
@@ -89,7 +89,7 @@ const parts = isProduction => {
   });
 
   /**
-   * Customize the output path for styles for `prod` builds.
+   * Customize the output path for styles for `production` builds.
    *
    * @param {string} path
    */
@@ -176,7 +176,7 @@ const parts = isProduction => {
   });
 
   /**
-   * Load `.ts` files with type checking on `dev` builds.
+   * Load `.ts` files with type checking on `development` builds.
    *
    * @param {string} target
    *
@@ -206,7 +206,7 @@ const parts = isProduction => {
   });
 
   /**
-   * Load `.tsx` files with type checking on `dev` builds.
+   * Load `.tsx` files with type checking on `development` builds.
    *
    * @param {string} target
    *
@@ -345,6 +345,26 @@ const parts = isProduction => {
           generator: {
             filename: `${path}[name][ext]`,
           },
+        },
+      ],
+    },
+  });
+
+  /**
+   * Raw asset loader.
+   *
+   * Usage:
+   *
+   * **index.js**
+   *
+   * `import myModule from 'my-module?raw';`
+   */
+  module.exports.loadRawAssets = () => ({
+    module: {
+      rules: [
+        {
+          resourceQuery: /raw/,
+          type: 'asset/source',
         },
       ],
     },

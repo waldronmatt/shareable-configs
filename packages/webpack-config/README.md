@@ -136,6 +136,7 @@ const { baseParts } = require('@waldronmatt/webpack-config');
 - `baseParts.loadImagesAsFiles()`
 - `baseParts.loadImagesAsFilesOrInline()`
 - `baseParts.loadFonts()`
+- `baseParts.loadRawAssets()`
 
 **Note**: See `/src/webpack.parts.js` for configuration options.
 
