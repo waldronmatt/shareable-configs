@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.7.3](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.7.2...@waldronmatt/webpack-config@2.7.3) (2022-04-09)
+
+
+### Bug Fixes
+
+* **scripts/files:** disable eslint on webpack script files to prevent other ci configs from linting ([3471c6d](https://github.com/waldronmatt/shareable-configs/commit/3471c6de73833dee124c365823b7af864b7c5c05))
+
+
+
+
+
 ## [2.7.2](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.7.1...@waldronmatt/webpack-config@2.7.2) (2022-04-09)
 
 
