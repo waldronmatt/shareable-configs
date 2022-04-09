@@ -4,7 +4,8 @@
   "description": "A shareable semantic-release configuration.",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "scripts/*"
   ],
   "scripts": {
     "test": "echo \"No test specified\"",
