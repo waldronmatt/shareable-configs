@@ -1,6 +1,6 @@
 {
   "name": "@waldronmatt/semantic-release-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A shareable semantic-release configuration for projects.",
   "main": "index.js",
   "files": [

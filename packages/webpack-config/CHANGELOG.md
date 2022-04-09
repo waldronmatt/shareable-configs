@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.7.2](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.7.1...@waldronmatt/webpack-config@2.7.2) (2022-04-09)
+
+
+### Bug Fixes
+
+* **lerna.json:** remove package.json from lerna ignore, update descriptions and workflow ([660a9a6](https://github.com/waldronmatt/shareable-configs/commit/660a9a60858863dca1d4b87cb0a3c49ffd2186b6))
+* **package.json:** add scripts directory to files array ([611a854](https://github.com/waldronmatt/shareable-configs/commit/611a8546f5c398404e5f226d61b5b42939944cc9))
+
+
+
+
+
 ## [2.7.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.7.0...@waldronmatt/webpack-config@2.7.1) (2022-04-09)
 
 **Note:** Version bump only for package @waldronmatt/webpack-config
