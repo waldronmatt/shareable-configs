@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.7.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.7.0...@waldronmatt/webpack-config@2.7.1) (2022-04-09)
+
+**Note:** Version bump only for package @waldronmatt/webpack-config
+
+
+
+
+
 # [2.7.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.6.4...@waldronmatt/webpack-config@2.7.0) (2022-04-08)
 
 
