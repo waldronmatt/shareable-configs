@@ -1,4 +1,4 @@
 module.exports = {
-  ignorePatterns: ['scripts/files/**'],
+  ignorePatterns: ['packages/webpack-config/scripts/files/**'],
   extends: './packages/eslint-config',
 };
