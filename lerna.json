@@ -10,12 +10,7 @@
     },
     "version": {
       "allowBranch": "main",
-      "ignoreChanges": [
-        "**/CHANGELOG.md",
-        "**/node_modules/**",
-        "**/package.json",
-        "**/*.md"
-      ],
+      "ignoreChanges": ["**/CHANGELOG.md", "**/node_modules/**", "**/*.md"],
       "yes": true
     }
   }

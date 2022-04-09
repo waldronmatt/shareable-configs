@@ -1,7 +1,7 @@
 {
   "name": "@waldronmatt/prettier-config",
   "version": "1.2.4",
-  "description": "A shareable prettier configuration.",
+  "description": "A shareable prettier configuration for projects.",
   "main": "index.js",
   "files": [
     "index.js",

@@ -1,7 +1,7 @@
 {
   "name": "@waldronmatt/browserslist-config",
   "version": "1.1.4",
-  "description": "A shareable browserslist configuration.",
+  "description": "A shareable browserslist configuration for projects.",
   "main": "index.js",
   "files": [
     "index.js",
