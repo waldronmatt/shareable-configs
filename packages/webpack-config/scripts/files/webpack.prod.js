@@ -1,5 +1,7 @@
+/* eslint-disable */
+
 const { extendWebpackBaseConfig } = require('@waldronmatt/webpack-config');
-const commonConfig = require('./webpack.common.js');
+const commonConfig = require('./webpack.common');
 
 const productionConfig = {
   // prod configs

@@ -1,7 +1,9 @@
+/* eslint-disable */
+
 const { merge } = require('webpack-merge');
 const { baseParts } = require('@waldronmatt/webpack-config');
 
-const commonConfig = isProduction => {
+const commonConfig = () => {
   return merge([
     {
       entry: {
