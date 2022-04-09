@@ -10,14 +10,10 @@ npm i --save-dev @waldronmatt/browserslist-config
 
 ## Usage
 
-**`package.json`**
+**`.browserslistrc`**
 
-```json
-{
-  "browserslist": [
-    "extends @waldronmatt/browserslist-config"
-  ]
-}
+```
+extends @waldronmatt/browserslist-config
 ```
 
 ## License

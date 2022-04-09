@@ -7,7 +7,8 @@
     "index.js"
   ],
   "scripts": {
-    "test": "echo \"No test specified\""
+    "test": "echo \"No test specified\"",
+    "postinstall": "node scripts/postinstall.js"
   },
   "publishConfig": {
     "access": "public"
