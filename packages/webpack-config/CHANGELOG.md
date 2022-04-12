@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.8.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.7.3...@waldronmatt/webpack-config@2.8.0) (2022-04-12)
+
+
+### Features
+
+* **webpack:** add support for accessing env variable via webpack.common.js ([99260e5](https://github.com/waldronmatt/shareable-configs/commit/99260e5c359226f1d56e8f8de84e2bf1e31618d4))
+
+
+
+
+
 ## [2.7.3](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.7.2...@waldronmatt/webpack-config@2.7.3) (2022-04-09)
 
 
