@@ -3,7 +3,8 @@
 const { merge } = require('webpack-merge');
 const { baseParts } = require('@waldronmatt/webpack-config');
 
-const commonConfig = () => {
+// eslint-disable-next-line no-unused-vars
+const commonConfig = (isProduction, env) => {
   return merge([
     {
       entry: {

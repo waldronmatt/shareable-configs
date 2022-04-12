@@ -56,45 +56,22 @@ module.exports = extendWebpackBaseConfig(commonConfig, productionConfig);
 ```
 
 \
-**`webpack.parts.js`**
-
-Optionally set up your custom config parts to include in `webpack.common.js`.
-
-- Use `isProduction` to apply configs based on the environment.
-
-```js
-const { MiniHtmlWebpackPlugin } = require('mini-html-webpack-plugin');
-
-const parts = isProduction => {
-  module.exports.loadHTMLPages = ({ title } = { title: 'MySite' }) => ({
-    plugins: [
-      new MiniHtmlWebpackPlugin({
-        context: { title },
-        publicPath: isProduction ? 'mydomain' : '/',
-      }),
-    ],
-  });
-};
-
-module.exports = parts;
-```
-
-\
 **`webpack.common.js`**
 
 - Use `isProduction` to apply configs based on the environment.
+- Access Webpack's `env` variable.
 - Apply extensible base configs from `@waldronmatt/webpack-config`.
-- Include your own extensible configs using `webpack.parts.js`.
-- configs you set will take precedence if they overlap with `@waldronmatt/webpack-config`.
+- Include your own extensible configs using your own parts via `const parts = require('./webpack.parts.js');`.
+- Configs you set will take precedence if they overlap with `@waldronmatt/webpack-config`.
 
 ```js
 const { merge } = require('webpack-merge');
 const { baseParts } = require('@waldronmatt/webpack-config');
 const parts = require('./webpack.parts.js');
 
-const commonConfig = isProduction => {
-  // pass `isProduction` environment variable into your parts file
-  parts(isProduction);
+const commonConfig = (isProduction, env) => {
+  // pass `isProduction` and Webpack's `env` variable into your parts file
+  parts(isProduction, env);
 
   return merge([
     {
@@ -111,6 +88,28 @@ const commonConfig = isProduction => {
 };
 
 module.exports = commonConfig;
+```
+
+\
+**`webpack.parts.js`**
+
+Optionally set up your custom config parts to include in `webpack.common.js`.
+
+```js
+const { MiniHtmlWebpackPlugin } = require('mini-html-webpack-plugin');
+
+const parts = (isProduction, env) => {
+  module.exports.loadHTMLPages = ({ title } = { title: 'MySite' }) => ({
+    plugins: [
+      new MiniHtmlWebpackPlugin({
+        context: { title },
+        publicPath: isProduction ? 'mydomain' : '/',
+      }),
+    ],
+  });
+};
+
+module.exports = parts;
 ```
 
 ## Options

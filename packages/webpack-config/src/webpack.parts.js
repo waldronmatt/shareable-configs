@@ -1,7 +1,8 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
-const parts = isProduction => {
+// eslint-disable-next-line no-unused-vars
+const parts = (isProduction, env) => {
   const miniCssExtract = path => {
     // where the compiled styles is saved to
     return new MiniCssExtractPlugin({

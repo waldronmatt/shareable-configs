@@ -14,10 +14,10 @@ const extendWebpackBaseConfig = (commonConfig, environmentConfig) => env => {
   // merge the base configs and your configs.
   // your configs will override if there's overlap with the base configs
   return merge(
-    baseCommonConfig(isProduction),
+    baseCommonConfig(isProduction, env),
     baseEnvironmentConfig,
     // this is your webpack.common.js file
-    commonConfig(isProduction),
+    commonConfig(isProduction, env),
     // this is your webpack.development.js or webpack.production.js file
     environmentConfig
   );

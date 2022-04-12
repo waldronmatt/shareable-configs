@@ -1,9 +1,9 @@
 const { merge } = require('webpack-merge');
 const parts = require('./webpack.parts');
 
-const commonConfig = isProduction => {
-  // pass `isProduction` environment variable into our parts file
-  parts(isProduction);
+const commonConfig = (isProduction, env) => {
+  // pass `isProduction` and Webpack's `env` variable into your parts file
+  parts(isProduction, env);
 
   // optionally destructure parts modules for use in our base config
   // const { loadJS } = parts;
