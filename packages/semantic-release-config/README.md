@@ -18,7 +18,8 @@ npm i --save-dev semantic-release @waldronmatt/semantic-release-config
 }
 ```
 
-**my-project/.github/workflows/release.yml**
+Example **`release.yml`**:
+
 
 ```yml
 name: Release
@@ -33,7 +34,9 @@ jobs:
     name: Semantic Release GitHub
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
+
+      - uses: bahmutov/npm-install@v1.8.7
 
       - uses: codfish/semantic-release-action@v1
         env:
