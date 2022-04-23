@@ -28,10 +28,9 @@
     "lint:js": "eslint --fix .",
     "lint": "yarn run lint:js",
     "commit": "git-cz",
-    "bootstrap": "lerna bootstrap",
-    "bootstrap:ci": "lerna bootstrap -- --frozen-lockfile --ignore-engines",
-    "publish:ci": "lerna publish from-package --yes --no-verify-access",
-    "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'"
+    "bootstrap:ci": "yarn install --frozen-lockfile --ignore-engines",
+    "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'",
+    "publish:ci": "lerna publish from-package --yes --no-verify-access"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",

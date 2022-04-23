@@ -2,14 +2,12 @@
 
 My personal shareable configurations with fully automated package publishing to NPM Registry.
 
-Monorepo and workflow setup inspired by [lerna-release-workflow](https://github.com/jonwa/lerna-release-workflow) and [base-configs](https://github.com/demartini/base-configs)
+Monorepo and workflow setup inspired by [lerna-release-workflow](https://github.com/jonwa/lerna-release-workflow) and [base-configs](https://github.com/demartini/base-configs).
 
 ## Features
 
 - Automated publishing to NPM Registry for changed packages
-- Automated CHANGELOG generation using Conventional Commits Specification
-- Automated GitHub release generation based on changed packages
-- Automated dependency and security management using Dependabot and CodeQL
+- Automated CHANGELOG generation and GitHub releases using Conventional Commits
 
 ## Getting Started
 
@@ -17,13 +15,11 @@ For your personal use:
 
 1. Update the root `package.json` with your repository name and url.
 
-2. Modify `packages/` for your needs.
+2. Modify `packages/` to suit your needs.
 
-3. Generate a `publish` type access token from `NPM` and save as a secret titled `NPM_TOKEN` in your repository.
+3. Generate a `publish` access token from `NPM` and save as a secret titled `NPM_TOKEN` in your repository.
 
-4. Run `yarn bootstrap` to install dependencies and link any cross-dependencies.
-
-5. Run `yarn commit` instead of `git commit` to prompt for conventional changelog standard.
+4. Run `yarn commit` to prompt for conventional changelog standard and commit changes.
 
 ## Packages
 
