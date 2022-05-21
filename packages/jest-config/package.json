@@ -1,0 +1,41 @@
+{
+  "name": "@waldronmatt/jest-config",
+  "version": "1.0.0",
+  "description": "A shareable jest configuration for projects.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "scripts/*"
+  ],
+  "scripts": {
+    "test": "echo \"No test specified\"",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldronmatt/shareable-configs.git",
+    "directory": "packages/jest-config"
+  },
+  "keywords": [
+    "jest",
+    "jest-config"
+  ],
+  "author": "Matthew Waldron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+  },
+  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/jest-config#readme",
+  "peerDependencies": {
+    "jest": ">= 28"
+  },
+  "dependencies": {
+    "@types/jest": "^27.5.1",
+    "jest-environment-jsdom": "^28.1.0",
+    "jest-transform-stub": "^2.0.0",
+    "ts-jest": "^28.0.2"
+  }
+}
