@@ -28,7 +28,17 @@ module.exports = {
 };
 ```
 
+### Jest
+
+```js
+module.exports = {
+  extends: '@waldronmatt/eslint-config/jest',
+};
+```
+
 ## Extending
+
+Mixed JS/TS, `tsconfig`-compatible configuration with jest linting.
 
 **`.eslintrc.js`**
 
@@ -38,7 +48,10 @@ module.exports = {
   overrides: [
     {
       files: ['**/*.ts'],
-      extends: ['@waldronmatt/eslint-config/ts'],
+      extends: [
+        '@waldronmatt/eslint-config/ts',
+        '@waldronmatt/eslint-config/jest',
+      ],
       parserOptions: {
         project: 'tsconfig.json',
         tsconfigRootDir: __dirname,
@@ -46,7 +59,10 @@ module.exports = {
     },
     {
       files: ['**/*.js'],
-      extends: ['@waldronmatt/eslint-config'],
+      extends: [
+        '@waldronmatt/eslint-config',
+        '@waldronmatt/eslint-config/jest',
+      ],
     },
   ],
 };
@@ -80,6 +96,15 @@ module.exports = {
   - `eslint-config-prettier`
 - Rules
   - [Custom Special Rules](https://github.com/prettier/eslint-config-prettier#special-rules)
+
+### `jest.js`
+
+- Plugins
+  - `jest`
+  - `jest-formatting`
+- Extends
+  - `plugin:jest/recommended`
+  - `plugin:jest-formatting/recommended`
 
 ## License
 
