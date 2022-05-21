@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/jest-config@1.1.0...@waldronmatt/jest-config@1.1.1) (2022-05-21)
+
+
+### Bug Fixes
+
+* **packages/jest-config:** rename index to jest-preset.js so jest can extend from ([58af6f3](https://github.com/waldronmatt/shareable-configs/commit/58af6f39054be2cc7ce450e6aebccbe8a702310e))
+
+
+
+
+
 # 1.1.0 (2022-05-21)
 
 

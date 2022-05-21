@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.8](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.1.7...@waldronmatt/eslint-config@1.1.8) (2022-05-21)
+
+
+### Bug Fixes
+
+* **package.json:** include jest config in package.json ([9804910](https://github.com/waldronmatt/shareable-configs/commit/9804910e2105eec9efb0165187bf9c5e75131ac6))
+
+
+
+
+
 ## [1.1.7](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.1.6...@waldronmatt/eslint-config@1.1.7) (2022-05-21)
 
 
