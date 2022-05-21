@@ -6,6 +6,7 @@
   "files": [
     "index.js",
     "ts.js",
+    "jest.js",
     "scripts/*"
   ],
   "scripts": {
