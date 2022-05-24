@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.9.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.8.1...@waldronmatt/webpack-config@2.9.0) (2022-05-24)
+
+
+### Features
+
+* **global:** bumb deps in package.json files ([93a31fc](https://github.com/waldronmatt/shareable-configs/commit/93a31fc22c3fa646b0b037af65193a0ef1a3a1c6))
+
+
+
+
+
 ## [2.8.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.8.0...@waldronmatt/webpack-config@2.8.1) (2022-05-24)
 
 **Note:** Version bump only for package @waldronmatt/webpack-config

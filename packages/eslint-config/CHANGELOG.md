@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.1.8...@waldronmatt/eslint-config@1.2.0) (2022-05-24)
+
+
+### Features
+
+* **global:** bumb deps in package.json files ([93a31fc](https://github.com/waldronmatt/shareable-configs/commit/93a31fc22c3fa646b0b037af65193a0ef1a3a1c6))
+
+
+
+
+
 ## [1.1.8](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.1.7...@waldronmatt/eslint-config@1.1.8) (2022-05-21)
 
 
