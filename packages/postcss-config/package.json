@@ -30,10 +30,10 @@
   },
   "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/postcss-config#readme",
   "dependencies": {
-    "autoprefixer": "^10.4.2",
+    "autoprefixer": "^10.4.7",
     "postcss-100vh-fix": "^1.0.2",
     "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-preset-env": "^7.3.1"
+    "postcss-preset-env": "^7.6.0"
   },
   "peerDependencies": {
     "postcss": ">= 8"
