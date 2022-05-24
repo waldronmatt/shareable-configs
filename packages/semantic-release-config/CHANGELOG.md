@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/semantic-release-config@1.0.7...@waldronmatt/semantic-release-config@1.1.0) (2022-05-24)
+
+
+### Features
+
+* **packages/semantic-release:** add git, npm, and changelog libraries to config ([3db38df](https://github.com/waldronmatt/shareable-configs/commit/3db38dfda9cbed64771865904ef0086a3d3bab3d))
+
+
+
+
+
 ## [1.0.7](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/semantic-release-config@1.0.6...@waldronmatt/semantic-release-config@1.0.7) (2022-04-09)
 
 
