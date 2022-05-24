@@ -21,6 +21,40 @@ For your personal use:
 
 4. Run `yarn commit` to prompt for conventional changelog standard and commit changes.
 
+## Dependency Management
+
+### Install workspace dependencies
+
+```bash
+yarn add [package-name] -D -W
+```
+
+### Install dependencies for a package
+
+```bash
+cd packages/[package-name]
+```
+
+```bash
+yarn add [package-name]
+```
+
+### Sync `yarn.lock` with `package.json`
+
+Sync `dependabot` changes made to `yarn.lock` with `package.json` files in `packages/`:
+
+```bash
+yarn syncyarnlock -s -k
+```
+
+Install dependencies again:
+
+```bash
+yarn
+```
+
+**Note**: This will trigger a new release for projects with a modified `package.json` and applicable commit type.
+
 ## Packages
 
 - [@waldronmatt/browserslist-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/browserslist-config#readme)
