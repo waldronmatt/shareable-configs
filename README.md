@@ -23,13 +23,13 @@ For your personal use:
 
 ## Dependency Management
 
-### Install workspace dependencies
+Install workspace dependencies
 
 ```bash
 yarn add [package-name] -D -W
 ```
 
-### Install dependencies for a package
+Install dependencies for a package
 
 ```bash
 cd packages/[package-name]
@@ -39,15 +39,11 @@ cd packages/[package-name]
 yarn add [package-name]
 ```
 
-### Sync `yarn.lock` with `package.json`
-
 Sync `dependabot` changes made to `yarn.lock` with `package.json` files in `packages/`:
 
 ```bash
 yarn syncyarnlock -s -k
 ```
-
-Install dependencies again:
 
 ```bash
 yarn
