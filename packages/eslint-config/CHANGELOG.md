@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.2.0...@waldronmatt/eslint-config@1.3.0) (2022-05-27)
+
+
+### Features
+
+* **jest.js:** add eslint-plugin-jest-dom lib and config ([fecfa35](https://github.com/waldronmatt/shareable-configs/commit/fecfa3575ce98e4da8f5749b823ee9a4ca9e78a6))
+
+
+
+
+
 # [1.2.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.1.8...@waldronmatt/eslint-config@1.2.0) (2022-05-24)
 
 
