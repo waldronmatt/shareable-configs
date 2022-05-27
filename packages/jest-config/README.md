@@ -34,7 +34,7 @@ module.exports = {
 
 ## Under The Hood
 
-### `index.js`
+### `jest-preset.js`
 
 - `@types/jest`
 - `ts-jest`
