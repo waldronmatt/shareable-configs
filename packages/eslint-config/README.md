@@ -101,9 +101,11 @@ module.exports = {
 
 - Plugins
   - `jest`
+  - `jest-dom`
   - `jest-formatting`
 - Extends
   - `plugin:jest/recommended`
+  - `plugin:jest-dom/recommended`
   - `plugin:jest-formatting/recommended`
 
 ## License
