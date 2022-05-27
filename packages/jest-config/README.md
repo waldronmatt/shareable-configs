@@ -25,7 +25,10 @@ module.exports = {
 ```js
 module.exports = {
   preset: '@waldronmatt/jest-config',
-  verbose: false,
+  testMatch: [
+    '<rootDir>/__tests__/**/**.+(ts|tsx|js|jsx)',
+    '<rootDir>/src/**/?(*.)+(spec|test).+(ts|tsx|js|jsx)',
+  ],
 };
 ```
 

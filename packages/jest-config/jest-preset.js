@@ -1,9 +1,5 @@
 module.exports = {
   moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx', 'json'],
-  testMatch: [
-    '<rootDir>/__tests__/**/**.+(ts|tsx|js|jsx)',
-    '<rootDir>/src/**/?(*.)+(spec|test).+(ts|tsx|js|jsx)',
-  ],
   moduleNameMapper: {
     /*
       method for stubbing Webpack resource queries
