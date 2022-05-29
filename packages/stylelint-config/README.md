@@ -52,6 +52,7 @@ module.exports = {
 - Plugins
   - `stylelint-order`
   - `stylelint-no-unsupported-browser-features`
+  - `stylelint-high-performance-animation`
 - Extends
   - `stylelint-config-standard`
   - `stylelint-a11y`
@@ -62,6 +63,7 @@ module.exports = {
 - Plugins
   - `stylelint-order`
   - `stylelint-no-unsupported-browser-features`
+  - `stylelint-high-performance-animation`
 - Extends
   - `stylelint-config-standard-scss`
   - `stylelint-config-sass-guidelines`

@@ -4,6 +4,8 @@ module.exports = {
     'stylelint-order',
     // disallow features not supported by target browsers
     'stylelint-no-unsupported-browser-features',
+    // prevent use of low performance animation and transition properties.
+    'stylelint-high-performance-animation',
   ],
   extends: [
     // for a set of community lint rules around
@@ -22,5 +24,6 @@ module.exports = {
         severity: 'warning',
       },
     ],
+    'plugin/no-low-performance-animation-properties': true,
   },
 };
