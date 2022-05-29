@@ -2,6 +2,8 @@ module.exports = {
   plugins: [
     // to enforce the order of certain rules
     'stylelint-order',
+    // disallow features not supported by target browsers
+    'stylelint-no-unsupported-browser-features',
   ],
   extends: [
     // extends stylelint-config-standard and
@@ -18,4 +20,13 @@ module.exports = {
     // adds prettier as a stylelint rule
     'stylelint-prettier/recommended',
   ],
+  // https://github.com/ismay/stylelint-no-unsupported-browser-features#recommendations
+  rules: {
+    'plugin/no-unsupported-browser-features': [
+      true,
+      {
+        severity: 'warning',
+      },
+    ],
+  },
 };
