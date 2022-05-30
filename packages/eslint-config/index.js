@@ -5,6 +5,7 @@ module.exports = {
     'plugin:unicorn/recommended',
     'plugin:promise/recommended',
     'plugin:sonarjs/recommended',
+    'plugin:security/recommended',
     // Uses the recommended rules from eslint
     'eslint:recommended',
     /*

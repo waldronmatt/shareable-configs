@@ -80,11 +80,13 @@ module.exports = {
   - `eslint-plugin-unicorn`
   - `eslint-plugin-promise`
   - `eslint-plugin-sonarjs`
+  - `eslint-plugin-security`,
   - default `eslint` ruleset
   - `eslint-config-airbnb-base`
   - `eslint-config-prettier`
 - Rules
   - [Prettier Special Rules](https://github.com/prettier/eslint-config-prettier#special-rules)
+  - Other rules can be found in the config
 
 ### `ts.js`
 
@@ -97,11 +99,13 @@ module.exports = {
   - `eslint-plugin-unicorn`
   - `eslint-plugin-promise`
   - `eslint-plugin-sonarjs`
+  - `eslint-plugin-security`,
   - `@typescript-eslint/eslint-plugin`
   - `eslint-config-airbnb-typescript`
   - `eslint-config-prettier`
 - Rules
   - [Prettier Special Rules](https://github.com/prettier/eslint-config-prettier#special-rules)
+  - Other rules can be found in the config
 
 ### `jest.js`
 
