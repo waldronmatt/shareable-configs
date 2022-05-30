@@ -1,6 +1,7 @@
 const { merge } = require('webpack-merge');
 const parts = require('./webpack.parts');
 
+// eslint-disable-next-line unicorn/prevent-abbreviations
 const commonConfig = (isProduction, env) => {
   // pass `isProduction` and Webpack's `env` variable into your parts file
   parts(isProduction, env);

@@ -1,3 +1,4 @@
+// eslint-disable-next-line unicorn/prevent-abbreviations
 const developmentConfig = {
   mode: 'development',
   // map your compiled code back to your original source code.

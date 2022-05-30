@@ -14,6 +14,6 @@ const mobile = [
   'last 2 iOS major versions',
 ];
 
-const supportedBrowsers = desktop.concat(mobile);
+const supportedBrowsers = [...desktop, ...mobile];
 
 module.exports = supportedBrowsers;

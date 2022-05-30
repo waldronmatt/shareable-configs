@@ -1,15 +1,8 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
-// eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line no-unused-vars, unicorn/prevent-abbreviations
 const parts = (isProduction, env) => {
-  const miniCssExtract = path => {
-    // where the compiled styles is saved to
-    return new MiniCssExtractPlugin({
-      filename: `${path}[name].[contenthash:8].css`,
-    });
-  };
-
   const styleLoaders = () => [
     {
       loader: isProduction
@@ -78,12 +71,13 @@ const parts = (isProduction, env) => {
           test: /\.scss$/,
           include,
           exclude,
-          use: styleLoaders().concat([
+          use: [
+            ...styleLoaders(),
             // loads a sass/scss file and compiles it to css
             {
               loader: 'sass-loader',
             },
-          ]),
+          ],
         },
       ],
     },
@@ -94,8 +88,14 @@ const parts = (isProduction, env) => {
    *
    * @param {string} path
    */
-  module.exports.setStyleOutputPath = ({ path } = { path: '' }) => ({
-    plugins: [isProduction ? miniCssExtract(path) : false].filter(Boolean),
+  module.exports.setStyleOutputPath = ({ path = '' }) => ({
+    plugins: [
+      isProduction
+        ? new MiniCssExtractPlugin({
+            filename: `${path}[name].[contenthash:8].css`,
+          })
+        : false,
+    ].filter(Boolean),
   });
 
   /**
@@ -127,15 +127,14 @@ const parts = (isProduction, env) => {
    * @param {array} include
    * @param {array} exclude
    */
-  module.exports.loadJS = (
-    { target, include, exclude } = { target: 'es2015' }
-  ) => ({
+  module.exports.loadJS = ({ target = 'es2015', include, exclude }) => ({
     module: {
       rules: [
         {
           test: /\.js$/,
           include,
           exclude,
+          // eslint-disable-next-line sonarjs/no-duplicate-string
           loader: 'esbuild-loader',
           options: {
             // eslint-disable-next-line object-shorthand
@@ -156,9 +155,7 @@ const parts = (isProduction, env) => {
    * @param {array} include
    * @param {array} exclude
    */
-  module.exports.loadJSX = (
-    { target, include, exclude } = { target: 'es2015' }
-  ) => ({
+  module.exports.loadJSX = ({ target = 'es2015', include, exclude }) => ({
     module: {
       rules: [
         {
@@ -186,9 +183,7 @@ const parts = (isProduction, env) => {
    * @param {array} include
    * @param {array} exclude
    */
-  module.exports.loadTS = (
-    { target, include, exclude } = { target: 'es2015' }
-  ) => ({
+  module.exports.loadTS = ({ target = 'es2015', include, exclude }) => ({
     module: {
       rules: [
         {
@@ -216,9 +211,7 @@ const parts = (isProduction, env) => {
    * @param {array} include
    * @param {array} exclude
    */
-  module.exports.loadTSX = (
-    { target, include, exclude } = { target: 'es2015' }
-  ) => ({
+  module.exports.loadTSX = ({ target = 'es2015', include, exclude }) => ({
     module: {
       rules: [
         {
@@ -250,7 +243,7 @@ const parts = (isProduction, env) => {
    *
    * @param {string} path
    */
-  module.exports.setScriptOutputPath = ({ path } = { path: '' }) => ({
+  module.exports.setScriptOutputPath = ({ path = '' }) => ({
     output: {
       filename: isProduction
         ? `${path}[name].[contenthash:8].js`
@@ -272,7 +265,7 @@ const parts = (isProduction, env) => {
    *
    * @param {string} path
    */
-  module.exports.loadImagesAsFiles = ({ path } = { path: '' }) => ({
+  module.exports.loadImagesAsFiles = ({ path = '' }) => ({
     module: {
       rules: [
         {
@@ -304,9 +297,10 @@ const parts = (isProduction, env) => {
    * @param {string} path
    * @param {number} maxSize - 1024 * 8 (8kb)
    */
-  module.exports.loadImagesAsFilesOrInline = (
-    { path, maxSize } = { path: '', maxSize: 1024 * 8 }
-  ) => ({
+  module.exports.loadImagesAsFilesOrInline = ({
+    path = '',
+    maxSize = 1024 * 8,
+  }) => ({
     module: {
       rules: [
         {
@@ -337,7 +331,7 @@ const parts = (isProduction, env) => {
    *
    * @param {string} path
    */
-  module.exports.loadFonts = ({ path } = { path: '' }) => ({
+  module.exports.loadFonts = ({ path = '' }) => ({
     module: {
       rules: [
         {

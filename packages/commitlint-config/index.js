@@ -7,5 +7,5 @@ module.exports = {
     due to @semantic-release/git putting release notes in the commit body
     https://github.com/semantic-release/git/issues/331
   */
-  ignores: [commitMsg => automaticCommitPattern.test(commitMsg)],
+  ignores: [commitMessage => automaticCommitPattern.test(commitMessage)],
 };
