@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.4.0...@waldronmatt/eslint-config@1.5.0) (2022-05-30)
+
+
+### Features
+
+* **eslint-config:** add eslint-plugin-security lib ([70c06ad](https://github.com/waldronmatt/shareable-configs/commit/70c06ad63f6e19be4decd09cae909246fe581782))
+
+
+
+
+
 # [1.4.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.3.0...@waldronmatt/eslint-config@1.4.0) (2022-05-30)
 
 
