@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/commitlint-config@1.1.1...@waldronmatt/commitlint-config@1.1.2) (2022-05-30)
+
+**Note:** Version bump only for package @waldronmatt/commitlint-config
+
+
+
+
+
 ## [1.1.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/commitlint-config@1.1.0...@waldronmatt/commitlint-config@1.1.1) (2022-05-30)
 
 
