@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.3.0...@waldronmatt/eslint-config@1.4.0) (2022-05-30)
+
+
+### Features
+
+* **eslint-config:** add unicorn, promise, sonarjs libs ([8fca052](https://github.com/waldronmatt/shareable-configs/commit/8fca0522b949277632e39483690dedb66f4eaa61))
+
+
+
+
+
 # [1.3.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.2.0...@waldronmatt/eslint-config@1.3.0) (2022-05-27)
 
 

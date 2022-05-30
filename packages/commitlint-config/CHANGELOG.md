@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/commitlint-config@1.1.0...@waldronmatt/commitlint-config@1.1.1) (2022-05-30)
+
+
+### Bug Fixes
+
+* **global:** update packages to comply with new eslint config ([dbee043](https://github.com/waldronmatt/shareable-configs/commit/dbee043b0a6b0a1d99e44e6cb8af9fa52133aab9))
+
+
+
+
+
 # 1.1.0 (2022-05-24)
 
 

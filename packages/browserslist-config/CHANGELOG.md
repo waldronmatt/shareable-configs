@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.6](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/browserslist-config@1.1.5...@waldronmatt/browserslist-config@1.1.6) (2022-05-30)
+
+
+### Bug Fixes
+
+* **global:** update packages to comply with new eslint config ([dbee043](https://github.com/waldronmatt/shareable-configs/commit/dbee043b0a6b0a1d99e44e6cb8af9fa52133aab9))
+
+
+
+
+
 ## [1.1.5](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/browserslist-config@1.1.4...@waldronmatt/browserslist-config@1.1.5) (2022-04-09)
 
 
