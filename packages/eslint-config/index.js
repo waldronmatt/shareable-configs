@@ -1,7 +1,10 @@
 module.exports = {
   // Plugins that provide the processors to parse code for linting
-  plugins: ['prettier'],
+  plugins: ['sonarjs', 'prettier'],
   extends: [
+    'plugin:unicorn/recommended',
+    'plugin:promise/recommended',
+    'plugin:sonarjs/recommended',
     // Uses the recommended rules from eslint
     'eslint:recommended',
     /*
@@ -34,5 +37,6 @@ module.exports = {
         devDependencies: true,
       },
     ],
+    'unicorn/prefer-module': 0,
   },
 };

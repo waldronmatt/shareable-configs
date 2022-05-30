@@ -1,12 +1,15 @@
 module.exports = {
   // Plugins that provide the processors to parse code for linting
-  plugins: ['@typescript-eslint', 'prettier'],
+  plugins: ['sonarjs', '@typescript-eslint', 'prettier'],
   /*
     A parser that converts TypeScript into an ESTree-compatible
     form so it can be used in ESLint.
   */
   parser: '@typescript-eslint/parser',
   extends: [
+    'plugin:unicorn/recommended',
+    'plugin:promise/recommended',
+    'plugin:sonarjs/recommended',
     // Uses the recommended rules from the @typescript-eslint/eslint-plugin
     'plugin:@typescript-eslint/recommended',
     /*
@@ -40,5 +43,6 @@ module.exports = {
         devDependencies: true,
       },
     ],
+    'unicorn/prefer-module': 0,
   },
 };

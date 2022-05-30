@@ -77,11 +77,14 @@ module.exports = {
 - Parser
   - default `eslint` parser
 - Extends
+  - `eslint-plugin-unicorn`
+  - `eslint-plugin-promise`
+  - `eslint-plugin-sonarjs`
   - default `eslint` ruleset
   - `eslint-config-airbnb-base`
   - `eslint-config-prettier`
 - Rules
-  - [Custom Special Rules](https://github.com/prettier/eslint-config-prettier#special-rules)
+  - [Prettier Special Rules](https://github.com/prettier/eslint-config-prettier#special-rules)
 
 ### `ts.js`
 
@@ -91,11 +94,14 @@ module.exports = {
 - Parser
   - `@typescript-eslint/parser`
 - Extends
+  - `eslint-plugin-unicorn`
+  - `eslint-plugin-promise`
+  - `eslint-plugin-sonarjs`
   - `@typescript-eslint/eslint-plugin`
   - `eslint-config-airbnb-typescript`
   - `eslint-config-prettier`
 - Rules
-  - [Custom Special Rules](https://github.com/prettier/eslint-config-prettier#special-rules)
+  - [Prettier Special Rules](https://github.com/prettier/eslint-config-prettier#special-rules)
 
 ### `jest.js`
 
