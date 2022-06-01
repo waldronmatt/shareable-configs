@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/postcss-config@1.3.1...@waldronmatt/postcss-config@1.4.0) (2022-06-01)
+
+
+### Features
+
+* **postcss-config:** add postcss-normalize lib ([dea6b84](https://github.com/waldronmatt/shareable-configs/commit/dea6b843506c556129c80658a5046a75e1bad38e))
+
+
+
+
+
 ## [1.3.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/postcss-config@1.3.0...@waldronmatt/postcss-config@1.3.1) (2022-05-30)
 
 **Note:** Version bump only for package @waldronmatt/postcss-config
