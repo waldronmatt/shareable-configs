@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/browserslist-config@1.1.7...@waldronmatt/browserslist-config@1.2.0) (2022-06-01)
+
+
+### Features
+
+* **package.json:** add browserslist as a dependency ([d41511a](https://github.com/waldronmatt/shareable-configs/commit/d41511a1dc83762b212a836087052e81328d5739))
+
+
+
+
+
 ## [1.1.7](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/browserslist-config@1.1.6...@waldronmatt/browserslist-config@1.1.7) (2022-05-30)
 
 **Note:** Version bump only for package @waldronmatt/browserslist-config
