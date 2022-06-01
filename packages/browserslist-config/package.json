@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/waldronmatt/shareable-configs/issues"
   },
-  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/browserslist-config#readme"
+  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/browserslist-config#readme",
+  "dependencies": {
+    "browserslist": "^4.20.3"
+  }
 }
