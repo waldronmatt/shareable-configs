@@ -19,11 +19,6 @@
     "commit-msg": "yarn commitlint --edit $1",
     "pre-push": "yarn run lint"
   },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix"
-    ]
-  },
   "scripts": {
     "lint:js": "eslint --fix .",
     "lint": "yarn run lint:js",

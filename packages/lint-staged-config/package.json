@@ -1,0 +1,35 @@
+{
+  "name": "@waldronmatt/lint-staged-config",
+  "version": "1.0.0",
+  "description": "A shareable lint-staged configuration for projects.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "scripts/*"
+  ],
+  "scripts": {
+    "test": "echo \"No test specified\"",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldronmatt/shareable-configs.git",
+    "directory": "packages/lint-staged-config"
+  },
+  "keywords": [
+    "lint-staged",
+    "lint-staged-config"
+  ],
+  "author": "Matthew Waldron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+  },
+  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/lint-staged-config#readme",
+  "dependencies": {
+    "lint-staged": "^13.0.0"
+  }
+}
