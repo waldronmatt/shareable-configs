@@ -1,0 +1,35 @@
+{
+  "name": "@waldronmatt/commitizen-config",
+  "version": "1.0.0",
+  "description": "A shareable commitizen configuration for projects.",
+  "main": ".czrc",
+  "files": [
+    ".czrc",
+    "scripts/*"
+  ],
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldronmatt/shareable-configs.git",
+    "directory": "packages/commitizen-config"
+  },
+  "keywords": [
+    "commitizen",
+    "commitizen-config"
+  ],
+  "author": "Matthew Waldron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+  },
+  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/commitizen-config#readme",
+  "dependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0"
+  }
+}

@@ -47,10 +47,5 @@
     "prettier": "^2.6.2",
     "simple-git-hooks": "^2.7.0",
     "syncyarnlock": "^1.0.19"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
