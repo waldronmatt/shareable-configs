@@ -7,13 +7,7 @@ Inspired by configuration practices found on [survivejs.com](https://survivejs.c
 ## Install
 
 ```bash
-npm i --save-dev @waldronmatt/webpack-config
-```
-
-Install additional packages to meet project and loader requirements:
-
-```bash
-npm i --save-dev webpack webpack-merge webpack-cli
+npm i --save-dev webpack webpack-merge webpack-cli @waldronmatt/webpack-config
 ```
 
 ## Usage
@@ -80,7 +74,10 @@ const commonConfig = (isProduction, env) => {
       },
     },
     baseParts.loadJS(),
+    baseParts.setScriptOutputPath(),
     baseParts.loadCSS(),
+    baseParts.setStyleOutputPath(),
+    // custom configs from your own `parts` file
     parts.loadHTMLPages({
       title: 'about',
     }),

@@ -5,12 +5,10 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "src/**/*",
-    "scripts/*"
+    "src/**/*"
   ],
   "scripts": {
-    "test": "echo \"No test specified\"",
-    "postinstall": "node scripts/postinstall.js"
+    "test": "echo \"No test specified\""
   },
   "publishConfig": {
     "access": "public"
@@ -46,6 +44,7 @@
   },
   "peerDependencies": {
     "webpack": ">= 5",
+    "webpack-cli": ">= 4",
     "webpack-merge": ">= 5"
   }
 }
