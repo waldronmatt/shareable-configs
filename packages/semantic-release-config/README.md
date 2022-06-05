@@ -1,4 +1,4 @@
-# Semantic Release Config
+# Semantic-Release Config
 
 My personal shareable semantic-release configuration.
 
