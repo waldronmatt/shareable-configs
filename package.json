@@ -14,18 +14,14 @@
     "url": "https://github.com/waldronmatt/shareable-configs/issues"
   },
   "homepage": "https://github.com/waldronmatt/shareable-configs#readme",
-  "simple-git-hooks": {
-    "pre-commit": "yarn lint-staged",
-    "commit-msg": "yarn commitlint --edit $1",
-    "pre-push": "yarn run lint"
-  },
   "scripts": {
     "lint:js": "eslint --fix .",
     "lint": "yarn run lint:js",
     "commit": "git-cz",
     "bootstrap:ci": "yarn install --frozen-lockfile --ignore-engines",
     "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'",
-    "publish:ci": "lerna publish from-package --yes --no-verify-access"
+    "publish:ci": "lerna publish from-package --yes --no-verify-access",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.3.0",
@@ -33,14 +29,10 @@
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.16.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^8.0.1",
     "lerna": "^4.0.0",
     "lint-staged": "^12.4.2",
     "prettier": "^2.6.2",
-    "simple-git-hooks": "^2.7.0",
     "syncyarnlock": "^1.0.19"
   }
 }
