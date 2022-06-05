@@ -29,7 +29,7 @@
     "url": "https://github.com/waldronmatt/shareable-configs/issues"
   },
   "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/lint-staged-config#readme",
-  "dependencies": {
-    "lint-staged": "^13.0.0"
+  "peerDependencies": {
+    "lint-staged": ">= 13"
   }
 }
