@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.9.3](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.9.2...@waldronmatt/webpack-config@2.9.3) (2022-06-05)
+
+
+### Bug Fixes
+
+* **webpack-config:** remove postinstall script and files, add webpack-cli as peer dep ([4c5c725](https://github.com/waldronmatt/shareable-configs/commit/4c5c72508cd311076e5782b3fb4304add184f69a))
+
+
+
+
+
 ## [2.9.2](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.9.1...@waldronmatt/webpack-config@2.9.2) (2022-05-30)
 
 **Note:** Version bump only for package @waldronmatt/webpack-config

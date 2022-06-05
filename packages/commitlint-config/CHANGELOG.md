@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.3](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/commitlint-config@1.1.2...@waldronmatt/commitlint-config@1.1.3) (2022-06-05)
+
+
+### Bug Fixes
+
+* **package.json:** add [@commitlint-cli](https://github.com/commitlint-cli) as a peer dep ([eaf4c4d](https://github.com/waldronmatt/shareable-configs/commit/eaf4c4dc3245156ad0e9b72b29992ff7b61700a7))
+
+
+
+
+
 ## [1.1.2](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/commitlint-config@1.1.1...@waldronmatt/commitlint-config@1.1.2) (2022-05-30)
 
 **Note:** Version bump only for package @waldronmatt/commitlint-config
