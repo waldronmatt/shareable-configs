@@ -73,10 +73,10 @@ const commonConfig = (isProduction, env) => {
         main: './src/index.js',
       },
     },
-    baseParts.loadJS(),
-    baseParts.setScriptOutputPath(),
-    baseParts.loadCSS(),
-    baseParts.setStyleOutputPath(),
+    baseParts.loadJS({}),
+    baseParts.setScriptOutputPath({}),
+    baseParts.loadCSS({}),
+    baseParts.setStyleOutputPath({}),
     // custom configs from your own `parts` file
     parts.loadHTMLPages({
       title: 'about',
@@ -119,20 +119,20 @@ You can load optional configs from this package into your own:
 const { baseParts } = require('@waldronmatt/webpack-config');
 ```
 
-- `baseParts.loadCSS()`
-- `baseParts.loadSCSS()`
-- `baseParts.setStyleOutputPath()`
-- `baseParts.loadSourceMaps()`
-- `baseParts.loadJS()`
-- `baseParts.loadJSX()`
-- `baseParts.loadTS()`
-- `baseParts.loadTSX()`
-- `baseParts.enableTypeChecking()`
-- `baseParts.setScriptOutputPath()`
-- `baseParts.loadImagesAsFiles()`
-- `baseParts.loadImagesAsFilesOrInline()`
-- `baseParts.loadFonts()`
-- `baseParts.loadRawAssets()`
+- `baseParts.loadCSS({})`
+- `baseParts.loadSCSS({})`
+- `baseParts.setStyleOutputPath({})`
+- `baseParts.loadSourceMaps({})`
+- `baseParts.loadJS({})`
+- `baseParts.loadJSX({})`
+- `baseParts.loadTS({})`
+- `baseParts.loadTSX({})`
+- `baseParts.enableTypeChecking({})`
+- `baseParts.setScriptOutputPath({})`
+- `baseParts.loadImagesAsFiles({})`
+- `baseParts.loadImagesAsFilesOrInline({})`
+- `baseParts.loadFonts({})`
+- `baseParts.loadRawAssets({})`
 
 **Note**: See `/src/webpack.parts.js` for configuration options.
 
@@ -156,6 +156,11 @@ const { baseParts } = require('@waldronmatt/webpack-config');
 
 - `sass`
 - `typescript`
+
+## Core Package Dependencies
+
+- `webpack`
+- `webpack-merge`
 
 ## License
 

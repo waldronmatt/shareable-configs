@@ -16,6 +16,10 @@ npm i --save-dev @waldronmatt/browserslist-config
 extends @waldronmatt/browserslist-config
 ```
 
+## Under The Hood
+
+- `browserslist`
+
 ## License
 
 MIT

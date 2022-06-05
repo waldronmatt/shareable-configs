@@ -1,4 +1,4 @@
-# Lint-staged Config
+# Lint-Staged Config
 
 My personal shareable lint-staged configuration.
 
@@ -6,6 +6,20 @@ My personal shareable lint-staged configuration.
 
 ```bash
 npm i --save-dev lint-staged @waldronmatt/lint-staged-config
+```
+
+## Add a Husky Hook
+
+Install husky:
+
+```bash
+npm i --save-dev husky && npm set-script prepare "husky install" && npm run prepare
+```
+
+Add the hook:
+
+```bash
+npx husky add .husky/pre-commit 'npx --no-install lint-staged'
 ```
 
 ## Usage
@@ -28,10 +42,6 @@ module.exports = {
   '*.{ts,js}?x': ['yarn test --bail --passWithNoTests --findRelatedTests'],
 };
 ```
-
-## Under The Hood
-
-- `lint-staged`
 
 ## License
 

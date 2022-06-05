@@ -8,6 +8,20 @@ My personal shareable commitlint configuration.
 npm i --save-dev @commitlint/cli @waldronmatt/commitlint-config
 ```
 
+## Add a Husky Hook
+
+Install husky:
+
+```bash
+npm i --save-dev husky && npm set-script prepare "husky install" && npm run prepare
+```
+
+Add the hook:
+
+```bash
+npx husky add .husky/commit-msg 'npx --no-install commitlint --edit'
+```
+
 ## Usage
 
 **`commitlint.config.js`**
