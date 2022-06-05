@@ -1,6 +1,6 @@
 {
   "name": "@waldronmatt/lint-staged-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A shareable lint-staged configuration for projects.",
   "main": "index.js",
   "files": [
