@@ -5,7 +5,7 @@ My personal shareable commitlint configuration.
 ## Install
 
 ```bash
-npm i --save-dev @waldronmatt/commitlint-config
+npm i --save-dev @commitlint/cli @waldronmatt/commitlint-config
 ```
 
 ## Usage
@@ -35,7 +35,6 @@ module.exports = {
 
 ### `index.js`
 
-- `@commitlint/cli`
 - `@commitlint/config-conventional`
 
 ## License

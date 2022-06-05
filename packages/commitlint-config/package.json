@@ -30,7 +30,9 @@
   },
   "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/commitlint-config#readme",
   "dependencies": {
-    "@commitlint/cli": "^17.0.0",
     "@commitlint/config-conventional": "^17.0.0"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": ">= 17"
   }
 }
