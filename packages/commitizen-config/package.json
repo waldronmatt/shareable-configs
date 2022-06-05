@@ -8,7 +8,8 @@
     "scripts/*"
   ],
   "scripts": {
-    "test": "echo \"No test specified\""
+    "test": "echo \"No test specified\"",
+    "postinstall": "node scripts/postinstall.js"
   },
   "publishConfig": {
     "access": "public"
@@ -29,7 +30,9 @@
   },
   "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/commitizen-config#readme",
   "dependencies": {
-    "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0"
+  },
+  "peerDependencies": {
+    "commitizen": ">= 4"
   }
 }

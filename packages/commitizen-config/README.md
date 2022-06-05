@@ -5,7 +5,7 @@ My personal shareable commitizen configuration.
 ## Install
 
 ```bash
-npm i --save-dev @waldronmatt/commitizen-config
+npm i --save-dev commitizen @waldronmatt/commitizen-config
 ```
 
 ## Usage
@@ -30,7 +30,6 @@ npm i --save-dev @waldronmatt/commitizen-config
 
 ### `index.js`
 
-- `commitizen`
 - `cz-conventional-changelog`
 
 ## License
