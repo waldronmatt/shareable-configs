@@ -18,7 +18,25 @@ module.exports = {
 };
 ```
 
+Running this command:
+
+```bash
+npm set-script test "jest"
+```
+
+Will create:
+
+**`package.json`**
+
+```json
+"scripts": {
+  "test": "jest"
+},
+```
+
 ## Extending
+
+An example with `testMatch` that Jest uses to detect test files.
 
 **`jest.config.js`**
 

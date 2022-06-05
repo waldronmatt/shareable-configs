@@ -38,7 +38,7 @@ module.exports = {
 
 ## Extending
 
-Mixed JS/TS, `tsconfig`-compatible configuration with jest linting.
+An example configuring a mixed JS/TS, `tsconfig`-compatible configuration with jest linting.
 
 **`.eslintrc.js`**
 

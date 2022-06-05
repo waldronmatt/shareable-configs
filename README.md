@@ -26,7 +26,7 @@ yarn add -D @waldronmatt/browserslist-config commitizen @waldronmatt/commitizen-
 Install husky and all hooks and npm scripts associated with configs:
 
 ```bash
-yarn add -D husky && npm set-script prepare "husky install" && yarn prepare && npm set-script commit "git-cz" && npx husky add .husky/commit-msg 'npx --no-install commitlint --edit' && npx husky add .husky/pre-commit 'npx --no-install lint-staged'
+yarn add -D husky && npm set-script prepare "husky install" && yarn prepare && npm set-script commit "git-cz" && npm set-script test "jest" && npx husky add .husky/commit-msg 'npx --no-install commitlint --edit' && npx husky add .husky/pre-commit 'npx --no-install lint-staged'
 ```
 
 **Webpack**:

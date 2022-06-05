@@ -20,6 +20,8 @@ npm i --save-dev @waldronmatt/tsconfig-config
 
 ## Extending
 
+A basic configuration for projects:
+
 **`tsconfig.json`**
 
 ```json

@@ -18,6 +18,14 @@ npm i --save-dev commitizen @waldronmatt/commitizen-config
 }
 ```
 
+Running this command:
+
+```bash
+npm set-script commit "git-cz"
+```
+
+Will create:
+
 **`package.json`**
 
 ```json

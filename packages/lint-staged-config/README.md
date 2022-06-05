@@ -32,6 +32,8 @@ module.exports = require('@waldronmatt/lint-staged-config');
 
 ## Extending
 
+An example that includes executing tests related to files that have been changed in the current commit only.
+
 **`lint-staged.config.js`**
 
 ```js
@@ -39,7 +41,9 @@ const config = require('@waldronmatt/lint-staged-config');
 
 module.exports = {
   ...config,
-  '*.{ts,js}?x': ['yarn test --bail --passWithNoTests --findRelatedTests'],
+  '*.{js,jsx,ts,tsx}': [
+    'yarn test --bail --passWithNoTests --findRelatedTests',
+  ],
 };
 ```
 

@@ -30,6 +30,8 @@ module.exports = {
 
 ## Extending
 
+An example configuring a mixed CSS/SCSS configuration.
+
 **`.stylelintrc.js`**
 
 ```js
