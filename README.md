@@ -9,47 +9,33 @@ Monorepo and workflow setup inspired by [lerna-release-workflow](https://github.
 - Automated publishing to NPM Registry for changed packages
 - Automated CHANGELOG generation and GitHub releases using Conventional Commits
 
+## Installation
+
+Install all configs and associated packages as development dependencies:
+
+**Note**: This will automatically create configuration files in your root directory; **excluding** Webpack.
+
+```bash
+yarn add -D @waldronmatt/browserslist-config commitizen @waldronmatt/commitizen-config @commitlint/cli @waldronmatt/commitlint-config eslint @waldronmatt/eslint-config jest @waldronmatt/jest-config lint-staged @waldronmatt/lint-staged-config postcss @waldronmatt/postcss-config prettier @waldronmatt/prettier-config semantic-release @waldronmatt/semantic-release-config stylelint @waldronmatt/stylelint-config @waldronmatt/tsconfig-config webpack webpack-merge webpack-cli @waldronmatt/webpack-config
+```
+
 ## Getting Started
 
-For your personal use:
+**Husky**:
 
-1. Update the root `package.json` with your repository name and url.
-
-2. Modify `packages/` to suit your needs.
-
-3. Generate a `publish` access token from `NPM` and save as a secret titled `NPM_TOKEN` in your repository.
-
-4. Run `yarn commit` to prompt for conventional changelog standard and commit changes.
-
-## Dependency Management
-
-Install workspace dependencies
+Install husky and all hooks and npm scripts associated with configs:
 
 ```bash
-yarn add [package-name] -D -W
+yarn add -D husky && npm set-script prepare "husky install" && yarn prepare && npm set-script commit "git-cz" && npx husky add .husky/commit-msg 'npx --no-install commitlint --edit' && npx husky add .husky/pre-commit 'npx --no-install lint-staged'
 ```
 
-Install dependencies for a package
+**Webpack**:
 
-```bash
-cd packages/[package-name]
-```
+For Webpack, follow the directions in [README.md](https://github.com/waldronmatt/shareable-configs/tree/main/packages/webpack-config#readme).
 
-```bash
-yarn add [package-name]
-```
+**Semantic Release**:
 
-Sync `dependabot` changes made to `yarn.lock` with `package.json` files in `packages/`:
-
-```bash
-yarn syncyarnlock -s -k
-```
-
-```bash
-yarn
-```
-
-**Note**: This will trigger a new release for projects with a modified `package.json` and applicable commit type.
+For semantic-release, create a release file by following the directions in [README.md](https://github.com/waldronmatt/shareable-configs/tree/main/packages/semantic-release-config#readme).
 
 ## Packages
 
