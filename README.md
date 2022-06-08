@@ -11,31 +11,35 @@ Monorepo and workflow setup inspired by [lerna-release-workflow](https://github.
 
 ## Installation
 
-Install all configs and associated packages as development dependencies:
+Install all configs **excluding** Webpack and associated packages as development dependencies:
 
-**Note**: This will automatically create configuration files in your root directory; **excluding** Webpack.
+**Note**: This will automatically create configuration files in your root directory.
 
 ```bash
-yarn add -D @waldronmatt/browserslist-config commitizen @waldronmatt/commitizen-config @commitlint/cli @waldronmatt/commitlint-config eslint @waldronmatt/eslint-config jest @waldronmatt/jest-config lint-staged @waldronmatt/lint-staged-config postcss @waldronmatt/postcss-config prettier @waldronmatt/prettier-config semantic-release @waldronmatt/semantic-release-config stylelint @waldronmatt/stylelint-config @waldronmatt/tsconfig-config webpack webpack-merge webpack-cli @waldronmatt/webpack-config
+yarn add -D @waldronmatt/browserslist-config commitizen @waldronmatt/commitizen-config @commitlint/cli @waldronmatt/commitlint-config eslint @waldronmatt/eslint-config jest @waldronmatt/jest-config lint-staged @waldronmatt/lint-staged-config postcss @waldronmatt/postcss-config prettier @waldronmatt/prettier-config semantic-release @waldronmatt/semantic-release-config stylelint @waldronmatt/stylelint-config @waldronmatt/tsconfig-config
 ```
 
-## Getting Started
+**Add NPM Scripts**
 
-**Husky**:
+```bash
+npm set-script commit "git-cz" && npm set-script lint:js "eslint --fix **/*.{js,jsx,ts,tsx}" && npm set-script lint:css "stylelint --fix **/*.{css,scss}" && npm set-script test "jest"
+```
+
+**Install Husky and Git Hooks**:
 
 Install husky and all hooks and npm scripts associated with configs:
 
 ```bash
-yarn add -D husky && npm set-script prepare "husky install" && yarn prepare && npm set-script commit "git-cz" && npm set-script test "jest" && npx husky add .husky/commit-msg 'npx --no-install commitlint --edit' && npx husky add .husky/pre-commit 'npx --no-install lint-staged'
+yarn add -D husky && npm set-script prepare "husky install" && yarn prepare && npx husky add .husky/commit-msg 'npx --no-install commitlint --edit' && npx husky add .husky/pre-commit 'npx --no-install lint-staged'
 ```
-
-**Webpack**:
-
-For Webpack, follow the directions in [README.md](https://github.com/waldronmatt/shareable-configs/tree/main/packages/webpack-config#readme).
 
 **Semantic Release**:
 
-For semantic-release, create a release file by following the directions in [README.md](https://github.com/waldronmatt/shareable-configs/tree/main/packages/semantic-release-config#readme).
+For semantic-release, create a release file by following the directions in the [README.md](https://github.com/waldronmatt/shareable-configs/tree/main/packages/semantic-release-config#readme).
+
+**Webpack**:
+
+For Webpack, follow the directions in the [README.md](https://github.com/waldronmatt/shareable-configs/tree/main/packages/webpack-config#readme).
 
 ## Packages
 
