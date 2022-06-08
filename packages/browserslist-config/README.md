@@ -5,7 +5,7 @@ My personal shareable browserslist configuration.
 ## Install
 
 ```bash
-npm i --save-dev @waldronmatt/browserslist-config
+yarn add -D @waldronmatt/browserslist-config
 ```
 
 ## Usage

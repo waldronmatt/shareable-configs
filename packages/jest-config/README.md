@@ -5,18 +5,10 @@ My personal shareable jest configuration.
 ## Install
 
 ```bash
-npm i --save-dev jest @waldronmatt/jest-config
+yarn add -D jest @waldronmatt/jest-config
 ```
 
-## Usage
-
-**`jest.config.js`**
-
-```js
-module.exports = {
-  preset: '@waldronmatt/jest-config',
-};
-```
+## Add an NPM Script
 
 Running this command:
 
@@ -32,6 +24,16 @@ Will create:
 "scripts": {
   "test": "jest"
 },
+```
+
+## Usage
+
+**`jest.config.js`**
+
+```js
+module.exports = {
+  preset: '@waldronmatt/jest-config',
+};
 ```
 
 ## Extending

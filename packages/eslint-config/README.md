@@ -5,7 +5,25 @@ My personal shareable eslint configuration.
 ## Install
 
 ```bash
-npm i --save-dev eslint @waldronmatt/eslint-config
+yarn add -D eslint @waldronmatt/eslint-config
+```
+
+## Add an NPM Script
+
+Running this command:
+
+```bash
+npm set-script lint:js "eslint --fix **/*.{js,jsx,ts,tsx}"
+```
+
+Will create:
+
+**`package.json`**
+
+```json
+"scripts": {
+  "lint:js": "eslint --fix **/*.{js,jsx,ts,tsx}"
+},
 ```
 
 ## Usage

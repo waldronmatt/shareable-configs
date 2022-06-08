@@ -5,7 +5,7 @@ My personal shareable postcss configuration.
 ## Install
 
 ```bash
-npm i --save-dev postcss @waldronmatt/postcss-config
+yarn add -D postcss @waldronmatt/postcss-config
 ```
 
 ## Usage

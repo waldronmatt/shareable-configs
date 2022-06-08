@@ -5,7 +5,23 @@ My personal shareable stylelint configuration.
 ## Install
 
 ```bash
-npm i --save-dev stylelint @waldronmatt/stylelint-config
+yarn add -D stylelint @waldronmatt/stylelint-config
+```
+
+Running this command:
+
+```bash
+npm set-script lint:css "stylelint --fix **/*.{css,scss}"
+```
+
+Will create:
+
+**`package.json`**
+
+```json
+"scripts": {
+  "lint:css": "stylelint --fix **/*.{css,scss}"
+},
 ```
 
 ## Usage

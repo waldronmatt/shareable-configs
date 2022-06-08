@@ -5,7 +5,7 @@ My personal shareable lint-staged configuration.
 ## Install
 
 ```bash
-npm i --save-dev lint-staged @waldronmatt/lint-staged-config
+yarn add -D lint-staged @waldronmatt/lint-staged-config
 ```
 
 ## Add a Husky Hook
@@ -13,7 +13,7 @@ npm i --save-dev lint-staged @waldronmatt/lint-staged-config
 Install husky:
 
 ```bash
-npm i --save-dev husky && npm set-script prepare "husky install" && npm run prepare
+yarn add -D husky && npm set-script prepare "husky install" && yarn prepare
 ```
 
 Add the hook:

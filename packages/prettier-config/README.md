@@ -5,7 +5,7 @@ My personal shareable prettier configuration.
 ## Install
 
 ```bash
-npm i --save-dev prettier @waldronmatt/prettier-config
+yarn add -D prettier @waldronmatt/prettier-config
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm i --save-dev prettier @waldronmatt/prettier-config
 **`.prettierrc.js`**
 
 ```js
-module.exports = "@waldronmatt/prettier-config";
+module.exports = '@waldronmatt/prettier-config';
 ```
 
 ## Extending
@@ -22,7 +22,7 @@ module.exports = "@waldronmatt/prettier-config";
 
 ```js
 module.exports = {
-  ...require("@waldronmatt/prettier-config"),
+  ...require('@waldronmatt/prettier-config'),
   semi: false,
 };
 ```

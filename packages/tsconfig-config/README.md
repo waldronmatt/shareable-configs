@@ -5,7 +5,7 @@ My personal shareable tsconfig configuration.
 ## Install
 
 ```bash
-npm i --save-dev @waldronmatt/tsconfig-config
+yarn add -D @waldronmatt/tsconfig-config
 ```
 
 ## Usage

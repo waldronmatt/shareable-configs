@@ -5,7 +5,7 @@ My personal shareable semantic-release configuration.
 ## Install
 
 ```bash
-npm i --save-dev semantic-release @waldronmatt/semantic-release-config
+yarn add -D semantic-release @waldronmatt/semantic-release-config
 ```
 
 ## Usage
@@ -40,7 +40,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: 16
 
@@ -106,7 +106,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: 16
 

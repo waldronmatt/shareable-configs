@@ -7,7 +7,7 @@ Inspired by configuration practices found on [survivejs.com](https://survivejs.c
 ## Install
 
 ```bash
-npm i --save-dev webpack webpack-merge webpack-cli @waldronmatt/webpack-config
+yarn add -D webpack webpack-merge webpack-cli @waldronmatt/webpack-config
 ```
 
 ## Usage
