@@ -15,8 +15,7 @@
   },
   "homepage": "https://github.com/waldronmatt/shareable-configs#readme",
   "scripts": {
-    "lint:js": "eslint --fix .",
-    "lint": "yarn run lint:js",
+    "lint": "eslint --fix **/*.js",
     "commit": "git-cz",
     "bootstrap:ci": "yarn install --frozen-lockfile --ignore-engines",
     "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'",
