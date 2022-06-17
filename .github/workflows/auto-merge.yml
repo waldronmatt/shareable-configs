@@ -21,15 +21,15 @@ jobs:
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      - name: Enable auto-merge for Dependabot PRs (for patch update)
-        if: ${{ steps.metadata.outputs.update-type == 'version-update:semver-patch' }}
+      - name: Enable auto-merge for Dependabot PRs (for patch and minor updates)
+        if: ${{ steps.metadata.outputs.update-type == 'version-update:semver-minor' || steps.metadata.outputs.update-type == 'version-update:semver-patch' }}
         run: gh pr merge --auto --merge "$PR_URL"
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Enable auto-merge for Dependabot PRs (for minor version update)
-        if: ${{ steps.metadata.outputs.update-type == 'version-update:semver-minor' }}
-        run: gh pr review --approve "$PR_URL"
+      - name: Request reviews for Dependabot PRs (for all other updates)
+        if: ${{ steps.metadata.outputs.update-type != 'version-update:semver-minor' && steps.metadata.outputs.update-type != 'version-update:semver-patch' }}
+        run: gh pr edit "$PR_URL" --add-reviewer waldronmatt
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
