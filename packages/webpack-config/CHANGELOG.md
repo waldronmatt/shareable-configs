@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.9.4](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.9.3...@waldronmatt/webpack-config@2.9.4) (2022-06-17)
+
+
+### Bug Fixes
+
+* **global:** update documentation ([120938a](https://github.com/waldronmatt/shareable-configs/commit/120938a301c88730d31dc8c8f919c960d193edb2))
+
+
+
+
+
 ## [2.9.3](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.9.2...@waldronmatt/webpack-config@2.9.3) (2022-06-05)
 
 

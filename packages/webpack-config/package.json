@@ -1,6 +1,6 @@
 {
   "name": "@waldronmatt/webpack-config",
-  "version": "2.9.3",
+  "version": "2.9.4",
   "description": "A shareable webpack configuration for projects.",
   "main": "index.js",
   "files": [
