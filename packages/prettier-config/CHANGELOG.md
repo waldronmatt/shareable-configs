@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/prettier-config@1.2.6...@waldronmatt/prettier-config@1.3.0) (2022-06-21)
+
+
+### Bug Fixes
+
+* **index.js:** update invalid false value to 'none' for trailingComma ([3b6c920](https://github.com/waldronmatt/shareable-configs/commit/3b6c92091a621a8f53da4de144216e1b0e7d6ef2))
+
+
+### Features
+
+* **index.js:** add new rule to force single html attributes per line ([ebb8a8f](https://github.com/waldronmatt/shareable-configs/commit/ebb8a8ffe4461f47e1f53d759eec79073c6c9caa))
+
+
+
+
+
 ## [1.2.6](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/prettier-config@1.2.5...@waldronmatt/prettier-config@1.2.6) (2022-05-30)
 
 **Note:** Version bump only for package @waldronmatt/prettier-config
