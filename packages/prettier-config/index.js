@@ -13,7 +13,7 @@ module.exports = {
       files: ['*.html'],
       options: {
         // disable to prevent conflicts with html-validate
-        trailingComma: false,
+        trailingComma: 'none',
         // https://prettier.io/blog/2018/11/07/1.15.0.html#whitespace-sensitive-formatting
         htmlWhitespaceSensitivity: 'css',
       },
