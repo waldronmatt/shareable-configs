@@ -1,17 +1,18 @@
 # Shareable Configs
 
-My personal shareable configurations with fully automated package publishing to NPM Registry.
+My personal shareable configurations with fully automated package publishing to the `NPM` Registry.
 
 Monorepo and workflow setup inspired by [lerna-release-workflow](https://github.com/jonwa/lerna-release-workflow) and [base-configs](https://github.com/demartini/base-configs).
 
 ## Features
 
-- Automated publishing to NPM Registry for changed packages
-- Automated CHANGELOG generation and GitHub releases using Conventional Commits
+- Automated publishing to the `NPM` Registry for changed packages
+- Automated `CHANGELOG.md` generation and `GitHub` releases using conventional commits
+- Automated merging of `Dependabot` pull requests.
 
 ## Installation
 
-Install all configs **excluding** Webpack and associated packages as development dependencies:
+Install all configs and associated packages as development dependencies (**excludes** Webpack):
 
 **Note**: This will automatically create configuration files in your root directory.
 
@@ -22,7 +23,7 @@ yarn add -D @waldronmatt/browserslist-config commitizen @waldronmatt/commitizen-
 **Add NPM Scripts**
 
 ```bash
-npm set-script commit "git-cz" && npm set-script lint:js "eslint --fix **/*.{js,jsx,ts,tsx}" && npm set-script lint:css "stylelint --fix **/*.{css,scss}" && npm set-script test "jest"
+npm set-script commit "git-cz" && npm set-script lint:js "eslint --fix **/*.{js,jsx,ts,tsx}" && npm set-script lint:css "stylelint --fix **/*.{css,scss}" && npm-set-script lint "yarn lint:js && yarn lint:css" && npm set-script test "jest"
 ```
 
 **Install Husky and Git Hooks**:
