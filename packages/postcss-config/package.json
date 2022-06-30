@@ -1,6 +1,6 @@
 {
   "name": "@waldronmatt/postcss-config",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A shareable postcss configuration for projects.",
   "main": "index.js",
   "files": [
