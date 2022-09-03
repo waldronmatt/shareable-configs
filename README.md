@@ -8,7 +8,7 @@ Monorepo and workflow setup inspired by [lerna-release-workflow](https://github.
 
 - Automated publishing to the `NPM` Registry for changed packages
 - Automated `CHANGELOG.md` generation and `GitHub` releases using conventional commits
-- Automated merging of `Dependabot` pull requests.
+- Automated merging of `Dependabot` pull requests of dependency updates.
 
 ## Installation
 
