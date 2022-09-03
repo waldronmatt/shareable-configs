@@ -33,7 +33,7 @@
     "jest": ">= 28"
   },
   "dependencies": {
-    "@types/jest": "^28.1.0",
+    "@types/jest": "^29.0.0",
     "jest-environment-jsdom": "^28.1.0",
     "jest-transform-stub": "^2.0.0",
     "ts-jest": "^28.0.3"
