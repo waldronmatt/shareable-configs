@@ -12,7 +12,7 @@ yarn add -D @waldronmatt/browserslist-config
 
 **`.browserslistrc`**
 
-```
+```bash
 extends @waldronmatt/browserslist-config
 ```
 
