@@ -8,6 +8,22 @@ My personal shareable markdownlint configuration.
 yarn add -D markdownlint @waldronmatt/markdownlint-config
 ```
 
+Running this command:
+
+```bash
+npm set-script lint:md "markdownlint --fix **/*.md --ignore node_modules --ignore **/CHANGELOG.md"
+```
+
+Will create:
+
+**`package.json`**
+
+```json
+"scripts": {
+  "lint:md": "markdownlint --fix **/*.md --ignore node_modules --ignore **/CHANGELOG.md"
+},
+```
+
 ## Usage
 
 **`.markdownlint.json`**
