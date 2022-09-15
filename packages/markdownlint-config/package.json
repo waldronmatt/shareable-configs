@@ -1,0 +1,38 @@
+{
+  "name": "@waldronmatt/markdownlint-config",
+  "version": "0.1.0",
+  "description": "A shareable markdownlint configuration for projects.",
+  "main": "index.json",
+  "files": [
+    "index.json",
+    "scripts/*"
+  ],
+  "scripts": {
+    "test": "echo \"No test specified\"",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldronmatt/shareable-configs.git",
+    "directory": "packages/markdownlint-config"
+  },
+  "keywords": [
+    "markdownlint",
+    "markdownlint-config"
+  ],
+  "author": "Matthew Waldron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+  },
+  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/markdownlint-config#readme",
+  "peerDependencies": {
+    "markdownlint": ">= 0.26.0"
+  },
+  "dependencies": {
+    "markdownlint-cli": "^0.32.2"
+  }
+}
