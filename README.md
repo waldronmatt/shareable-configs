@@ -17,16 +17,16 @@ Install all configs and associated packages as development dependencies (**exclu
 **Note**: This will automatically create configuration files in your root directory.
 
 ```bash
-yarn add -D @waldronmatt/browserslist-config commitizen @waldronmatt/commitizen-config @commitlint/cli @waldronmatt/commitlint-config eslint @waldronmatt/eslint-config jest @waldronmatt/jest-config lint-staged @waldronmatt/lint-staged-config postcss @waldronmatt/postcss-config prettier @waldronmatt/prettier-config semantic-release @waldronmatt/semantic-release-config stylelint @waldronmatt/stylelint-config @waldronmatt/tsconfig-config
+yarn add -D @waldronmatt/browserslist-config commitizen @waldronmatt/commitizen-config @commitlint/cli @waldronmatt/commitlint-config eslint @waldronmatt/eslint-config jest @waldronmatt/jest-config lint-staged @waldronmatt/lint-staged-config markdownlint @waldronmatt/markdownlint-config postcss @waldronmatt/postcss-config prettier @waldronmatt/prettier-config semantic-release @waldronmatt/semantic-release-config stylelint @waldronmatt/stylelint-config @waldronmatt/tsconfig-config
 ```
 
-**Add NPM Scripts**
+### Add NPM Scripts
 
 ```bash
-npm set-script commit "git-cz" && npm set-script lint:js "eslint --fix **/*.{js,jsx,ts,tsx}" && npm set-script lint:css "stylelint --fix **/*.{css,scss}" && npm-set-script lint "yarn lint:js && yarn lint:css" && npm set-script test "jest"
+npm set-script commit "git-cz" && npm set-script lint:md "markdownlint --fix **/*.md --ignore node_modules --ignore **/CHANGELOG.md" && npm set-script lint:js "eslint --fix **/*.{js,jsx,ts,tsx}" && npm set-script lint:css "stylelint --fix **/*.{css,scss}" && npm-set-script lint "yarn lint:md && yarn lint:js && yarn lint:css" && npm set-script test "jest"
 ```
 
-**Install Husky and Git Hooks**:
+### Install Husky and Git Hooks
 
 Install husky and all hooks and npm scripts associated with configs:
 
@@ -34,11 +34,11 @@ Install husky and all hooks and npm scripts associated with configs:
 yarn add -D husky && npm set-script prepare "husky install" && yarn prepare && npx husky add .husky/commit-msg 'npx --no-install commitlint --edit' && npx husky add .husky/pre-commit 'npx --no-install lint-staged'
 ```
 
-**Semantic Release**:
+### Semantic Release
 
 For semantic-release, create a release file by following the directions in the [README.md](https://github.com/waldronmatt/shareable-configs/tree/main/packages/semantic-release-config#readme).
 
-**Webpack**:
+### Webpack
 
 For Webpack, follow the directions in the [README.md](https://github.com/waldronmatt/shareable-configs/tree/main/packages/webpack-config#readme).
 
@@ -50,6 +50,7 @@ For Webpack, follow the directions in the [README.md](https://github.com/waldron
 - [@waldronmatt/eslint-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/eslint-config#readme)
 - [@waldronmatt/jest-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/jest-config#readme)
 - [@waldronmatt/lint-staged-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/lint-staged-config#readme)
+- [@waldronmatt/markdownlint-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/markdownlint-config#readme)
 - [@waldronmatt/postcss-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/postcss-config#readme)
 - [@waldronmatt/prettier-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/prettier-config#readme)
 - [@waldronmatt/semantic-release-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/semantic-release-config#readme)
