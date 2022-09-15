@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/markdownlint-config@0.2.0...@waldronmatt/markdownlint-config@1.0.1) (2022-09-15)
+
+
+### Bug Fixes
+
+* **index.json:** rename MD013 rule, fix version, update README ([2145e04](https://github.com/waldronmatt/shareable-configs/commit/2145e04180ebede0d790ddfc2d9c1738faee2cc6))
+
+
+
+
+
 # 0.2.0 (2022-09-15)
 
 
