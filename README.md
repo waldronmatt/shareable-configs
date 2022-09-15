@@ -2,8 +2,6 @@
 
 My personal shareable configurations with fully automated package publishing to the `NPM` Registry.
 
-Monorepo and workflow setup inspired by [lerna-release-workflow](https://github.com/jonwa/lerna-release-workflow) and [base-configs](https://github.com/demartini/base-configs).
-
 ## Features
 
 - Automated publishing to the `NPM` Registry for changed packages
@@ -57,6 +55,12 @@ For Webpack, follow the directions in the [README.md](https://github.com/waldron
 - [@waldronmatt/stylelint-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/stylelint-config#readme)
 - [@waldronmatt/tsconfig-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/tsconfig-config#readme)
 - [@waldronmatt/webpack-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/webpack-config#readme)
+
+## Other Awesome Monorepos
+
+- [lerna-release-workflow](https://github.com/jonwa/lerna-release-workflow) - A basic Lerna monorepo with Yarn Workspaces, Conventional Commits and GitHub Actions.
+- [base-configs](https://github.com/demartini/base-configs) - A collection of base configs for code quality and linting tools.
+- [threepio](https://github.com/the-holocron/threepio) - Shareable configurations that are used within the Galaxy.
 
 ## License
 
