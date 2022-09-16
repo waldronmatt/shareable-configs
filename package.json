@@ -16,7 +16,7 @@
   "homepage": "https://github.com/waldronmatt/shareable-configs#readme",
   "scripts": {
     "lint:js": "eslint --fix **/*.js",
-    "lint:md": "markdownlint --fix **/*.md --ignore node_modules --ignore **/CHANGELOG.md --disable MD013",
+    "lint:md": "markdownlint --fix **/*.md --ignore node_modules --ignore **/CHANGELOG.md",
     "commit": "git-cz",
     "bootstrap:ci": "yarn install --frozen-lockfile --ignore-engines",
     "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'",
