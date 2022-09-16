@@ -1,6 +1,6 @@
 {
   "name": "@waldronmatt/markdownlint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A shareable markdownlint configuration for projects.",
   "main": "index.json",
   "files": [

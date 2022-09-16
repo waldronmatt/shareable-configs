@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/markdownlint-config@1.0.1...@waldronmatt/markdownlint-config@1.0.2) (2022-09-16)
+
+
+### Bug Fixes
+
+* **postinstall:** fix extends to reference file to fix linting errors ([337e6fe](https://github.com/waldronmatt/shareable-configs/commit/337e6fe11f124b895cd2269b85d2ea86d446e45e))
+
+
+
+
+
 ## [1.0.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/markdownlint-config@0.2.0...@waldronmatt/markdownlint-config@1.0.1) (2022-09-15)
 
 
