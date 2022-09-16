@@ -30,7 +30,7 @@ Will create:
 
 ```bash
 {
-  "extends": "@waldronmatt/markdownlint-config"
+  "extends": "./node_modules/@waldronmatt/markdownlint-config/index.json"
 }
 ```
 
