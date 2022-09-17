@@ -1,0 +1,38 @@
+{
+  "name": "@waldronmatt/secretlint-config",
+  "version": "1.0.0",
+  "description": "A shareable secretlint configuration for projects.",
+  "main": "index.json",
+  "files": [
+    "index.json",
+    "scripts/*"
+  ],
+  "scripts": {
+    "test": "echo \"No test specified\"",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldronmatt/shareable-configs.git",
+    "directory": "packages/secretlint-config"
+  },
+  "keywords": [
+    "secretlint",
+    "secretlint-config"
+  ],
+  "author": "Matthew Waldron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+  },
+  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/secretlint-config#readme",
+  "peerDependencies": {
+    "secretlint": ">= 5.2.4"
+  },
+  "dependencies": {
+    "@secretlint/secretlint-rule-preset-recommend": "^5.2.4"
+  }
+}
