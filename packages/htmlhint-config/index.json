@@ -21,7 +21,7 @@
 
   "tags-check": true,
   "tag-pair": true,
-  "tag-self-close": true,
+  "tag-self-close": false,
   "tagname-lowercase": true,
   "tagname-specialchars": true,
   "empty-tag-not-self-closed": true,
@@ -35,6 +35,6 @@
   "inline-style-disabled": true,
   "inline-script-disabled": true,
 
-  "space-tab-mixed-disabled": "tab",
-  "spec-char-escape": true
+  "space-tab-mixed-disabled": false,
+  "spec-char-escape": false
 }
