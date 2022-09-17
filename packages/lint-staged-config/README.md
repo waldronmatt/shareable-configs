@@ -32,7 +32,7 @@ module.exports = require('@waldronmatt/lint-staged-config');
 
 ## Extending
 
-An example that includes executing tests related to files that have been changed in the current commit only.
+An example that includes executing tests related to files that have been changed in the current commit only and checking for credentials.
 
 **`lint-staged.config.js`**
 
@@ -44,6 +44,7 @@ module.exports = {
   '*.{js,jsx,ts,tsx}': [
     'yarn test --bail --passWithNoTests --findRelatedTests',
   ],
+  '*': ['secretlint'],
 };
 ```
 
