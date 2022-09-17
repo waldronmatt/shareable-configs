@@ -57,3 +57,9 @@ yarn
 Then use conventional commits and push out your changes.
 
 **Note**: This will trigger a new release for projects with a modified `package.json` and applicable commit type.
+
+## Peer Dependencies
+
+Peer dependencies are a good way to indicate to consumers of your configuration that your code is compatible with this version of a package. For example, you indicate a minimum version of `eslint` in your `eslint-config`. You might do this if a new feature comes out that you want to use and want to ensure consumers use the correct, updated version. When users consume your package, they will need to have the minimum `eslint` version installed on their repository.
+
+To add a peer dependency to a configuration, you'll need to install and add the line of the package manually to your `package.json`'s `peerDependencies` field.
