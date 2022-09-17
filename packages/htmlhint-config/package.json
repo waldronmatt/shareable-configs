@@ -1,0 +1,33 @@
+{
+  "name": "@waldronmatt/htmlhint-config",
+  "version": "1.0.0",
+  "description": "A shareable htmlhint configuration for projects.",
+  "main": "index.json",
+  "files": [
+    "index.json"
+  ],
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldronmatt/shareable-configs.git",
+    "directory": "packages/htmlhint-config"
+  },
+  "keywords": [
+    "htmlhint",
+    "htmlhint-config"
+  ],
+  "author": "Matthew Waldron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+  },
+  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/htmlhint-config#readme",
+  "peerDependencies": {
+    "htmlhint": ">= 1.1.4"
+  }
+}
