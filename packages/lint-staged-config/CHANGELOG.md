@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.3](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/lint-staged-config@1.1.2...@waldronmatt/lint-staged-config@1.1.3) (2022-09-17)
+
+
+### Bug Fixes
+
+* **readme.md:** add example for secretlint configuration ([d7857d1](https://github.com/waldronmatt/shareable-configs/commit/d7857d12b0d350bd77a136d193c26bb80563c483))
+
+
+
+
+
 ## [1.1.2](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/lint-staged-config@1.1.1...@waldronmatt/lint-staged-config@1.1.2) (2022-06-21)
 
 

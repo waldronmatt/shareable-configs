@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/browserslist-config@1.2.0...@waldronmatt/browserslist-config@1.2.1) (2022-09-17)
+
+
+### Bug Fixes
+
+* **global:** update documentation ([120938a](https://github.com/waldronmatt/shareable-configs/commit/120938a301c88730d31dc8c8f919c960d193edb2))
+
+
+
+
+
 # [1.2.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/browserslist-config@1.1.7...@waldronmatt/browserslist-config@1.2.0) (2022-06-01)
 
 
