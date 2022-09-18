@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/htmlhint-config@1.0.2...@waldronmatt/htmlhint-config@1.0.3) (2022-09-18)
+
+
+### Bug Fixes
+
+* **index.json:** enable tag-self-close, disable empty-tag-not-self-close ([126b964](https://github.com/waldronmatt/shareable-configs/commit/126b9646a0bf5e51374e009bd03cfe17952f3330))
+
+
+
+
+
 ## [1.0.2](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/htmlhint-config@1.0.1...@waldronmatt/htmlhint-config@1.0.2) (2022-09-17)
 
 
