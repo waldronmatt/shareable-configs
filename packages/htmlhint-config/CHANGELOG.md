@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/htmlhint-config@1.0.3...@waldronmatt/htmlhint-config@1.0.4) (2022-09-18)
+
+**Note:** Version bump only for package @waldronmatt/htmlhint-config
+
+
+
+
+
 ## [1.0.3](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/htmlhint-config@1.0.2...@waldronmatt/htmlhint-config@1.0.3) (2022-09-18)
 
 
