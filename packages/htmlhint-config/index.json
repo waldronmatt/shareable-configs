@@ -21,10 +21,10 @@
 
   "tags-check": true,
   "tag-pair": true,
-  "tag-self-close": false,
+  "tag-self-close": true,
   "tagname-lowercase": true,
   "tagname-specialchars": true,
-  "empty-tag-not-self-closed": true,
+  "empty-tag-not-self-closed": false,
   "src-not-empty": true,
   "href-abs-or-rel": true,
 
