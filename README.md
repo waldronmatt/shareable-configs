@@ -21,7 +21,7 @@ yarn add -D @waldronmatt/browserslist-config commitizen @waldronmatt/commitizen-
 ### Add NPM Scripts
 
 ```bash
-npm set-script commit "git-cz" && npm set-script lint:md "markdownlint --fix **/*.md --ignore node_modules --ignore **/CHANGELOG.md" && npm set-script lint:js "eslint --fix **/*.{js,jsx,ts,tsx}" && npm set-script lint:css "stylelint --fix **/*.{css,scss}" && npm set-script lint:html "htmlhint --config ./node_modules/@waldronmatt/htmlhint-config/index.json **/*.html" && npm set-script lint:secrets "npx secretlint **/*" && npm-set-script lint "yarn lint:md && yarn lint:js && yarn lint:css && yarn lint:html && yarn lint:secrets" && npm set-script test "jest"
+npm set-script commit "git-cz" && npm set-script lint:md "markdownlint --fix **/*.md --ignore node_modules --ignore **/CHANGELOG.md" && npm set-script lint:js "eslint --fix **/*.{js,jsx,ts,tsx}" && npm set-script lint:css "stylelint --fix **/*.{css,scss}" && npm set-script lint:html "htmlhint --config ./node_modules/@waldronmatt/htmlhint-config/index.json **/*.html" && npm set-script lint:secrets "npx secretlint **/*" && npm set-script lint "yarn lint:md && yarn lint:js && yarn lint:css && yarn lint:html && yarn lint:secrets" && npm set-script test "jest"
 ```
 
 ### Install Husky and Git Hooks
