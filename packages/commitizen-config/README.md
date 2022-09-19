@@ -8,6 +8,16 @@ My personal shareable commitizen configuration.
 yarn add -D commitizen @waldronmatt/commitizen-config
 ```
 
+## Usage
+
+**`.czrc`**
+
+```bash
+{
+  "path": "cz-conventional-changelog"
+}
+```
+
 ## Add an NPM Script
 
 Running this command:
@@ -24,16 +34,6 @@ Will create:
 "scripts": {
   "commit": "git-cz"
 },
-```
-
-## Usage
-
-**`.czrc`**
-
-```bash
-{
-  "path": "cz-conventional-changelog"
-}
 ```
 
 ## Under The Hood

@@ -8,6 +8,18 @@ My personal shareable markdownlint configuration.
 yarn add -D markdownlint @waldronmatt/markdownlint-config
 ```
 
+## Usage
+
+**`.markdownlint.json`**
+
+```bash
+{
+  "extends": "./node_modules/@waldronmatt/markdownlint-config/index.json"
+}
+```
+
+## Add an NPM Script
+
 Running this command:
 
 ```bash
@@ -24,14 +36,14 @@ Will create:
 },
 ```
 
-## Usage
+## Add a Pre-commit Hook
 
-**`.markdownlint.json`**
+**`lint-staged.config.js`**
 
-```bash
-{
-  "extends": "./node_modules/@waldronmatt/markdownlint-config/index.json"
-}
+```js
+module.exports = {
+  '*.md': ['prettier --cache --write', 'markdownlint'],
+};
 ```
 
 ## Under The Hood
@@ -39,8 +51,6 @@ Will create:
 ### `index.json`
 
 - `markdownlint-cli`
-
-#### Based on [webpack's markdownlint](https://github.com/webpack/webpack.js.org/blob/master/.markdownlint.json)
 
 ## License
 

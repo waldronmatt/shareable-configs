@@ -8,6 +8,8 @@ My personal shareable htmlhint configuration.
 yarn add -D htmlhint @waldronmatt/htmlhint-config
 ```
 
+## Add an NPM Script
+
 Running this command:
 
 ```bash

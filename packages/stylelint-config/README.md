@@ -8,22 +8,6 @@ My personal shareable stylelint configuration.
 yarn add -D stylelint @waldronmatt/stylelint-config
 ```
 
-Running this command:
-
-```bash
-npm set-script lint:css "stylelint --fix **/*.{css,scss}"
-```
-
-Will create:
-
-**`package.json`**
-
-```json
-"scripts": {
-  "lint:css": "stylelint --fix **/*.{css,scss}"
-},
-```
-
 ## Usage
 
 **`.stylelintrc.js`**
@@ -60,6 +44,34 @@ module.exports = {
       extends: '@waldronmatt/stylelint-config',
     },
   ],
+};
+```
+
+## Add an NPM Script
+
+Running this command:
+
+```bash
+npm set-script lint:css "stylelint --fix **/*.{css,scss}"
+```
+
+Will create:
+
+**`package.json`**
+
+```json
+"scripts": {
+  "lint:css": "stylelint --fix **/*.{css,scss}"
+},
+```
+
+## Add a Pre-commit Hook
+
+**`lint-staged.config.js`**
+
+```js
+module.exports = {
+  '*.{css,scss}': ['prettier --cache --write', 'stylelint --cache --fix'],
 };
 ```
 

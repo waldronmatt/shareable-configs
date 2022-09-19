@@ -8,24 +8,6 @@ My personal shareable jest configuration.
 yarn add -D jest @waldronmatt/jest-config
 ```
 
-## Add an NPM Script
-
-Running this command:
-
-```bash
-npm set-script test "jest"
-```
-
-Will create:
-
-**`package.json`**
-
-```json
-"scripts": {
-  "test": "jest"
-},
-```
-
 ## Usage
 
 **`jest.config.js`**
@@ -48,6 +30,38 @@ module.exports = {
   testMatch: [
     '<rootDir>/__tests__/**/**.+(ts|tsx|js|jsx)',
     '<rootDir>/src/**/?(*.)+(spec|test).+(ts|tsx|js|jsx)',
+  ],
+};
+```
+
+## Add an NPM Script
+
+Running this command:
+
+```bash
+npm set-script test "jest"
+```
+
+Will create:
+
+**`package.json`**
+
+```json
+"scripts": {
+  "test": "jest"
+},
+```
+
+## Add a Pre-commit Hook
+
+**Note**: Executes tests related to files that have been changed in the current commit only.
+
+**`lint-staged.config.js`**
+
+```js
+module.exports = {
+  '*.{js,jsx,ts,tsx}': [
+    'yarn test --bail --passWithNoTests --findRelatedTests',
   ],
 };
 ```

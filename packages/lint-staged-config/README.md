@@ -8,20 +8,6 @@ My personal shareable lint-staged configuration.
 yarn add -D lint-staged @waldronmatt/lint-staged-config
 ```
 
-## Add a Husky Hook
-
-Install husky:
-
-```bash
-yarn add -D husky && npm set-script prepare "husky install" && yarn prepare
-```
-
-Add the hook:
-
-```bash
-npx husky add .husky/pre-commit 'npx --no-install lint-staged'
-```
-
 ## Usage
 
 **`lint-staged.config.js`**
@@ -33,9 +19,7 @@ module.exports = require('@waldronmatt/lint-staged-config');
 ### YML
 
 ```js
-module.exports = {
-  extends: '@waldronmatt/lint-staged-config/yml',
-};
+module.exports = require('@waldronmatt/lint-staged-config/yml');
 ```
 
 ## Extending
@@ -59,6 +43,20 @@ module.exports = {
     'yarn test --bail --passWithNoTests --findRelatedTests',
   ],
 };
+```
+
+## Add a Husky Hook
+
+Install husky:
+
+```bash
+yarn add -D husky && npm set-script prepare "husky install" && yarn prepare
+```
+
+Add the hook:
+
+```bash
+npx husky add .husky/pre-commit 'npx --no-install lint-staged'
 ```
 
 ## License

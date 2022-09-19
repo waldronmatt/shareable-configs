@@ -8,20 +8,6 @@ My personal shareable commitlint configuration.
 yarn add -D @commitlint/cli @waldronmatt/commitlint-config
 ```
 
-## Add a Husky Hook
-
-Install husky:
-
-```bash
-yarn add -D husky && npm set-script prepare "husky install" && yarn prepare
-```
-
-Add the hook:
-
-```bash
-npx husky add .husky/commit-msg 'npx --no-install commitlint --edit'
-```
-
 ## Usage
 
 **`commitlint.config.js`**
@@ -43,6 +29,20 @@ module.exports = {
     'body-leading-blank': [2, 'always'],
   },
 };
+```
+
+## Add a Husky Hook
+
+Install husky:
+
+```bash
+yarn add -D husky && npm set-script prepare "husky install" && yarn prepare
+```
+
+Add the hook:
+
+```bash
+npx husky add .husky/commit-msg 'npx --no-install commitlint --edit'
 ```
 
 ## Under The Hood

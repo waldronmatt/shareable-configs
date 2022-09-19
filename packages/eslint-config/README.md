@@ -8,24 +8,6 @@ My personal shareable eslint configuration.
 yarn add -D eslint @waldronmatt/eslint-config
 ```
 
-## Add an NPM Script
-
-Running this command:
-
-```bash
-npm set-script lint:js "eslint --fix **/*.{js,jsx,ts,tsx}"
-```
-
-Will create:
-
-**`package.json`**
-
-```json
-"scripts": {
-  "lint:js": "eslint --fix **/*.{js,jsx,ts,tsx}"
-},
-```
-
 ## Usage
 
 **`.eslintrc.js`**
@@ -83,6 +65,34 @@ module.exports = {
       ],
     },
   ],
+};
+```
+
+## Add an NPM Script
+
+Running this command:
+
+```bash
+npm set-script lint:js "eslint --fix **/*.{js,jsx,ts,tsx}"
+```
+
+Will create:
+
+**`package.json`**
+
+```json
+"scripts": {
+  "lint:js": "eslint --fix **/*.{js,jsx,ts,tsx}"
+},
+```
+
+## Add a Pre-commit Hook
+
+**`lint-staged.config.js`**
+
+```js
+module.exports = {
+  '*.{js,jsx,ts,tsx}': ['prettier --cache --write', 'eslint --cache --fix'],
 };
 ```
 

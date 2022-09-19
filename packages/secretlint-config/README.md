@@ -8,6 +8,18 @@ My personal shareable secretlint configuration.
 yarn add -D secretlint @waldronmatt/secretlint-config
 ```
 
+## Usage
+
+**`.secretlintrc.js`**
+
+```js
+module.exports = {
+  ...require('@waldronmatt/secretlint-config'),
+};
+```
+
+## Add an NPM Script
+
 Running this command:
 
 ```bash
@@ -24,13 +36,13 @@ Will create:
 },
 ```
 
-## Usage
+## Add a Pre-commit Hook
 
-**`.secretlintrc.js`**
+**`lint-staged.config.js`**
 
 ```js
 module.exports = {
-  ...require('@waldronmatt/secretlint-config'),
+  '*': ['secretlint'],
 };
 ```
 
