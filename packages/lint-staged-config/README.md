@@ -30,21 +30,34 @@ npx husky add .husky/pre-commit 'npx --no-install lint-staged'
 module.exports = require('@waldronmatt/lint-staged-config');
 ```
 
+### YML
+
+```js
+module.exports = {
+  extends: '@waldronmatt/lint-staged-config/yml',
+};
+```
+
 ## Extending
 
-An example that includes executing tests related to files that have been changed in the current commit only and checking for credentials.
+An example that includes checking for credentials, ignoring `prettier` on unknown extensions, `yml` linting, and executing tests related to files that have been changed in the current commit only.
 
 **`lint-staged.config.js`**
 
 ```js
 const config = require('@waldronmatt/lint-staged-config');
+const ymlConfig = require('@waldronmatt/lint-staged-config/yml');
 
 module.exports = {
+  '*': ['secretlint'],
+  '!(*.{md,js,jsx,ts,tsx,json,css,scss,yml,yaml})': [
+    'prettier --cache --write --ignore-unknown',
+  ],
+  ...ymlConfig,
   ...config,
   '*.{js,jsx,ts,tsx}': [
     'yarn test --bail --passWithNoTests --findRelatedTests',
   ],
-  '*': ['secretlint'],
 };
 ```
 
