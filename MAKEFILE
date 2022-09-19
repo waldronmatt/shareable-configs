@@ -1,0 +1,9 @@
+.PHONY: lint-yml lint-action
+
+lint: lint-yml lint-action
+
+lint-yml:
+	yamllint --strict .
+
+lint-action:
+	actionlint
