@@ -30,7 +30,6 @@
   },
   "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/commitizen-config#readme",
   "dependencies": {
-    "@commitlint/cli": "^17.1.2",
     "cz-conventional-changelog": "^3.3.0"
   },
   "peerDependencies": {

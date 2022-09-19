@@ -40,7 +40,6 @@ Will create:
 
 ### `index.js`
 
-- `@commitlint/cli`
 - `cz-conventional-changelog`
 
 ## License
