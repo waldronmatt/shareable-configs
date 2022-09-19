@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/lint-staged-config@1.1.3...@waldronmatt/lint-staged-config@1.2.0) (2022-09-19)
+
+
+### Bug Fixes
+
+* **global:** update readme ([17e8792](https://github.com/waldronmatt/shareable-configs/commit/17e879243244bf28136e24deef02522147abe451))
+* **index.js:** remove prettier ignore glob, add markdown and json ref ([b7e3288](https://github.com/waldronmatt/shareable-configs/commit/b7e32885dc30ffa31143e778c3da0e4d992a132e))
+
+
+### Features
+
+* **yml.js:** add yml configuration ([4840f3f](https://github.com/waldronmatt/shareable-configs/commit/4840f3f33985d321e3af0074e68aecaafec8b69b))
+
+
+
+
+
 ## [1.1.3](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/lint-staged-config@1.1.2...@waldronmatt/lint-staged-config@1.1.3) (2022-09-17)
 
 
