@@ -1,8 +1,7 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 module.exports = {
-  '!(*.{js,jsx,ts,tsx,css,scss})': [
-    'prettier --cache --write --ignore-unknown',
-  ],
+  '*.md': ['prettier --cache --write', 'markdownlint'],
   '*.{js,jsx,ts,tsx}': ['prettier --cache --write', 'eslint --cache --fix'],
+  '*.json': ['prettier --cache --write'],
   '*.{css,scss}': ['prettier --cache --write', 'stylelint --cache --fix'],
 };
