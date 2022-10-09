@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.5](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/htmlhint-config@1.0.4...@waldronmatt/htmlhint-config@1.0.5) (2022-10-09)
+
+
+### Bug Fixes
+
+* **global:** update readme ([17e8792](https://github.com/waldronmatt/shareable-configs/commit/17e879243244bf28136e24deef02522147abe451))
+* **index.json:** disable tags-check (a11y issue) and href abs/rel (too restrictive) ([e3f24ce](https://github.com/waldronmatt/shareable-configs/commit/e3f24ce6196fbffed622b37fd1d26dce043a004b))
+
+
+
+
+
 ## [1.0.4](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/htmlhint-config@1.0.3...@waldronmatt/htmlhint-config@1.0.4) (2022-09-18)
 
 **Note:** Version bump only for package @waldronmatt/htmlhint-config
