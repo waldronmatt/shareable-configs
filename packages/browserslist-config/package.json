@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/browserslist-config#readme",
   "dependencies": {
-    "browserslist": "^4.20.3"
+    "browserslist": "^4.21.4"
   }
 }
