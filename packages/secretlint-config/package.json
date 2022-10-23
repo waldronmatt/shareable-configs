@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/secretlint-config#readme",
   "peerDependencies": {
-    "secretlint": ">= 5.2.4"
+    "secretlint": ">= 5"
   },
   "dependencies": {
     "@secretlint/secretlint-rule-preset-recommend": "^5.2.4"
