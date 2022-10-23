@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/htmlhint-config#readme",
   "peerDependencies": {
-    "htmlhint": ">= 1.1.4"
+    "htmlhint": ">= 1"
   }
 }
