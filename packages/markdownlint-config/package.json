@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/markdownlint-config#readme",
   "peerDependencies": {
-    "markdownlint": ">= 0.26.0"
+    "markdownlint": ">= 0"
   },
   "dependencies": {
     "markdownlint-cli": "^0.32.2"
