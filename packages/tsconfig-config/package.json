@@ -1,6 +1,6 @@
 {
   "name": "@waldronmatt/tsconfig-config",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A shareable tsconfig configuration for projects.",
   "main": "tsconfig.json",
   "files": [

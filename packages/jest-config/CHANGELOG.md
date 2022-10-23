@@ -3,40 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.2.7](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/jest-config@1.2.6...@waldronmatt/jest-config@1.2.7) (2022-09-19)
-
+# [1.3.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/jest-config@1.2.7...@waldronmatt/jest-config@1.3.0) (2022-10-23)
 
 ### Bug Fixes
 
-* **global:** update readme ([17e8792](https://github.com/waldronmatt/shareable-configs/commit/17e879243244bf28136e24deef02522147abe451))
+- **global:** remove postinstall script from packages and update docs ([252ae78](https://github.com/waldronmatt/shareable-configs/commit/252ae787ec89902f130ee28d2af63255fdfabb4d))
+- **package.json:** sync yarn.lock versions to package.json ([c295919](https://github.com/waldronmatt/shareable-configs/commit/c295919e8cd1fbbd7965fe67d0188e0d657b6427))
 
+### Features
 
+- **package.json:** bump jest peer dep ([7f72160](https://github.com/waldronmatt/shareable-configs/commit/7f72160dbb20dcf3a6cdbf6e27f1ac3ec33e3149))
 
+## [1.2.7](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/jest-config@1.2.6...@waldronmatt/jest-config@1.2.7) (2022-09-19)
 
+### Bug Fixes
+
+- **global:** update readme ([17e8792](https://github.com/waldronmatt/shareable-configs/commit/17e879243244bf28136e24deef02522147abe451))
 
 ## [1.2.6](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/jest-config@1.2.5...@waldronmatt/jest-config@1.2.6) (2022-09-17)
 
 **Note:** Version bump only for package @waldronmatt/jest-config
 
-
-
-
-
 ## [1.2.5](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/jest-config@1.2.4...@waldronmatt/jest-config@1.2.5) (2022-09-15)
 
 **Note:** Version bump only for package @waldronmatt/jest-config
 
-
-
-
-
 ## [1.2.4](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/jest-config@1.2.3...@waldronmatt/jest-config@1.2.4) (2022-09-15)
 
 **Note:** Version bump only for package @waldronmatt/jest-config
-
-
-
-
 
 ## [1.2.3](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/jest-config@1.2.2...@waldronmatt/jest-config@1.2.3) (2022-06-04)
 
