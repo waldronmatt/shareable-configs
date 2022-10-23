@@ -12,11 +12,17 @@ My personal shareable configurations with fully automated package publishing to 
 
 Install all configs and associated packages as development dependencies (**excludes** Webpack):
 
-**Note**: This will automatically create configuration files in your root directory.
-
 ```bash
 yarn add -D @waldronmatt/browserslist-config commitizen @waldronmatt/commitizen-config @commitlint/cli @waldronmatt/commitlint-config eslint @waldronmatt/eslint-config htmlhint @waldronmatt/htmlhint-config jest @waldronmatt/jest-config lint-staged @waldronmatt/lint-staged-config markdownlint @waldronmatt/markdownlint-config postcss @waldronmatt/postcss-config prettier @waldronmatt/prettier-config secretlint @waldronmatt/secretlint-config semantic-release @waldronmatt/semantic-release-config stylelint @waldronmatt/stylelint-config @waldronmatt/tsconfig-config
 ```
+
+### Create Config Files
+
+Follow the `Usage` section via the `README.md` in each package.
+
+Some packages have examples of extended configurations to better support other packages and/or constitute a complete working configuration for projects.
+
+See [eslint](https://github.com/waldronmatt/shareable-configs/tree/main/packages/eslint-config#extending), [jest](https://github.com/waldronmatt/shareable-configs/tree/main/packages/jest-config#extending), [lint-staged](https://github.com/waldronmatt/shareable-configs/tree/main/packages/lint-staged-config#extending), [stylelint](https://github.com/waldronmatt/shareable-configs/tree/main/packages/stylelint-config#extending), and [tsconfig](https://github.com/waldronmatt/shareable-configs/tree/main/packages/tsconfig-config#extending).
 
 ### Add NPM Scripts
 

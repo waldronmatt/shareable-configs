@@ -54,14 +54,14 @@ Will create:
 
 ## Add a Pre-commit Hook
 
-**Note**: Executes tests related to files that have been changed in the current commit only.
+**Note**: Executes tests and coverage output related to files that have been changed in the current commit only.
 
 **`lint-staged.config.js`**
 
 ```js
 module.exports = {
   '*.{js,jsx,ts,tsx}': [
-    'yarn test --bail --passWithNoTests --findRelatedTests',
+    'yarn test --bail --passWithNoTests --findRelatedTests --coverage',
   ],
 };
 ```

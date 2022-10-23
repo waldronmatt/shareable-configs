@@ -1,4 +1,3 @@
-// https://github.com/tsconfig/bases/blob/main/bases/recommended.json
 {
   "compilerOptions": {
     "target": "ES2015",

@@ -10,8 +10,7 @@
     "scripts/*"
   ],
   "scripts": {
-    "test": "echo \"No test specified\"",
-    "postinstall": "node scripts/postinstall.js"
+    "test": "echo \"No test specified\""
   },
   "publishConfig": {
     "access": "public"

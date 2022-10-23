@@ -24,7 +24,7 @@ module.exports = require('@waldronmatt/lint-staged-config/yml');
 
 ## Extending
 
-An example that includes checking for credentials, ignoring `prettier` on unknown extensions, `yml` linting, and executing tests related to files that have been changed in the current commit only.
+An example that includes checking for credentials, ignoring `prettier` on unknown extensions, `yml` linting, and executing tests and coverage output related to files that have been changed in the current commit only.
 
 **`lint-staged.config.js`**
 
@@ -40,7 +40,7 @@ module.exports = {
   ...ymlConfig,
   ...config,
   '*.{js,jsx,ts,tsx}': [
-    'yarn test --bail --passWithNoTests --findRelatedTests',
+    'yarn test --bail --passWithNoTests --findRelatedTests --coverage',
   ],
 };
 ```
