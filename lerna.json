@@ -5,13 +5,11 @@
   "version": "independent",
   "command": {
     "publish": {
-      "registry": "https://registry.npmjs.org",
-      "yes": true
+      "registry": "https://registry.npmjs.org"
     },
     "version": {
       "allowBranch": "main",
-      "ignoreChanges": ["**/CHANGELOG.md", "**/node_modules/**", "**/*.md"],
-      "yes": true
+      "ignoreChanges": ["**/CHANGELOG.md", "**/node_modules/**"]
     }
   }
 }
