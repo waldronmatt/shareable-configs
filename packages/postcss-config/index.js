@@ -1,5 +1,7 @@
 // https://nextjs.org/docs/advanced-features/customizing-postcss-config
 const postcssNormalize = require('postcss-normalize');
+const postcssReporter = require('postcss-reporter');
+const postcssReporterFormatter = require('postcss-reporter/lib/formatter');
 
 module.exports = {
   plugins: [
@@ -16,6 +18,9 @@ module.exports = {
     ],
     postcssNormalize({
       forceImport: 'sanitize.css',
+    }),
+    postcssReporter({
+      formatter: postcssReporterFormatter(),
     }),
   ],
 };
