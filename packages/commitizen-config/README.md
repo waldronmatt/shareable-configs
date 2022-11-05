@@ -1,6 +1,8 @@
-# Commitizen Config
+# DEPRECATED - Commitizen Config
 
-My personal shareable commitizen configuration.
+~~My personal shareable commitizen configuration.~~
+
+**Why?** - This package no longer uses a postinstall script to auto create a `.czrc` file and it is preferred to follow `commitizen`'s instructions to install and set up.
 
 ## Install
 
