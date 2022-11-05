@@ -1,0 +1,42 @@
+{
+  "name": "@waldronmatt/babel-config",
+  "version": "1.0.0",
+  "description": "A shareable babel configuration for projects.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "scripts/*"
+  ],
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldronmatt/shareable-configs.git",
+    "directory": "packages/babel-config"
+  },
+  "keywords": [
+    "babel",
+    "babel-config"
+  ],
+  "author": "Matthew Waldron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+  },
+  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/babel-config#readme",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/runtime": "^7.20.1",
+    "core-js": "^3.26.0"
+  },
+  "peerDependencies": {
+    "browserslist": ">= 4",
+    "@babel/cli": ">= 7",
+    "@babel/core": ">= 7"
+  }
+}

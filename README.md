@@ -48,6 +48,7 @@ For Webpack, follow the directions in the [README.md](https://github.com/waldron
 
 ## Packages
 
+- [@waldronmatt/babel-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/babel-config#readme)
 - [@waldronmatt/browserslist-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/browserslist-config#readme)
 - [@waldronmatt/commitizen-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/commitizen-config#readme)
 - [@waldronmatt/commitlint-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/commitlint-config#readme)
