@@ -48,7 +48,7 @@ module.exports = {
 
 ## Under The Hood
 
-### `index.js`
+### `index.json`
 
 - `@secretlint/secretlint-rule-preset-recommend`
 
