@@ -1,6 +1,8 @@
-# Babel Config
+# DEPRECATED - Babel Config
 
-My personal shareable babel configuration.
+~~My personal shareable babel configuration.~~
+
+**Why?** - Alternatives to babel such as esbuild offer better performance for my projects.
 
 ## Install
 
