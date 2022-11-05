@@ -40,7 +40,7 @@ Will create:
 
 ## Under The Hood
 
-### `index.js`
+### `.czrc`
 
 - `cz-conventional-changelog`
 
