@@ -16,31 +16,35 @@ Install all configs and associated packages as development dependencies (**exclu
 yarn add -D @waldronmatt/browserslist-config @commitlint/cli @waldronmatt/commitlint-config eslint @waldronmatt/eslint-config htmlhint @waldronmatt/htmlhint-config jest @waldronmatt/jest-config lint-staged @waldronmatt/lint-staged-config markdownlint @waldronmatt/markdownlint-config postcss @waldronmatt/postcss-config prettier @waldronmatt/prettier-config secretlint @waldronmatt/secretlint-config semantic-release @waldronmatt/semantic-release-config stylelint @waldronmatt/stylelint-config @waldronmatt/tsconfig-config
 ```
 
+### Set up Husky
+
+Follow the directions [found here](https://github.com/waldronmatt/shareable-configs/tree/main/docs/HUSKY.md).
+
+### Set up Commitizen
+
+Follow the directions [found here](https://github.com/waldronmatt/shareable-configs/tree/main/docs/COMMITIZEN.md).
+
 ### Create Config Files
 
 Follow the `Usage` section via the `README.md` in each package.
 
 Some packages have examples of extended configurations to better support other packages and/or constitute a complete working configuration for projects.
 
-See [eslint](https://github.com/waldronmatt/shareable-configs/tree/main/packages/eslint-config#extending), [jest](https://github.com/waldronmatt/shareable-configs/tree/main/packages/jest-config#extending), [lint-staged](https://github.com/waldronmatt/shareable-configs/tree/main/packages/lint-staged-config#extending), [stylelint](https://github.com/waldronmatt/shareable-configs/tree/main/packages/stylelint-config#extending), and [tsconfig](https://github.com/waldronmatt/shareable-configs/tree/main/packages/tsconfig-config#extending).
+See [eslint](https://github.com/waldronmatt/shareable-configs/tree/main/packages/eslint-config#extending), [jest](https://github.com/waldronmatt/shareable-configs/tree/main/packages/jest-config#extending), [lint-staged](https://github.com/waldronmatt/shareable-configs/tree/main/packages/lint-staged-config#extending), [semantic-release](https://github.com/waldronmatt/shareable-configs/tree/main/packages/semantic-release-config#extending), [stylelint](https://github.com/waldronmatt/shareable-configs/tree/main/packages/stylelint-config#extending), and [tsconfig](https://github.com/waldronmatt/shareable-configs/tree/main/packages/tsconfig-config#extending).
 
 ### Add NPM Scripts
 
 ```bash
-npm set-script commit "git-cz" && npm set-script lint:md "markdownlint --fix **/*.md --ignore node_modules --ignore **/CHANGELOG.md" && npm set-script lint:js "eslint --fix **/*.{js,jsx,ts,tsx}" && npm set-script lint:css "stylelint --fix **/*.{css,scss}" && npm set-script lint:html "htmlhint --config ./node_modules/@waldronmatt/htmlhint-config/index.json **/*.html" && npm set-script lint:secrets "npx secretlint **/*" && npm set-script lint "yarn lint:md && yarn lint:js && yarn lint:css && yarn lint:html && yarn lint:secrets" && npm set-script test "jest"
+npm set-script lint:md "markdownlint --fix **/*.md --ignore node_modules --ignore **/CHANGELOG.md" && npm set-script lint:js "eslint --fix **/*.{js,jsx,ts,tsx}" && npm set-script lint:css "stylelint --fix **/*.{css,scss}" && npm set-script lint:html "htmlhint --config ./node_modules/@waldronmatt/htmlhint-config/index.json **/*.html" && npm set-script lint:secrets "npx secretlint **/*" && npm set-script lint "yarn lint:md && yarn lint:js && yarn lint:css && yarn lint:html && yarn lint:secrets" && npm set-script test "jest"
 ```
 
-### Install Husky and Git Hooks
+### Install Git Hooks
 
 Install husky and all hooks and npm scripts associated with configs:
 
 ```bash
-yarn add -D husky && npm set-script prepare "husky install" && yarn prepare && npx husky add .husky/commit-msg 'npx --no-install commitlint --edit' && npx husky add .husky/pre-commit 'npx --no-install lint-staged'
+npx husky add .husky/commit-msg 'npx --no-install commitlint --edit' && npx husky add .husky/pre-commit 'npx --no-install lint-staged'
 ```
-
-### Semantic Release
-
-For semantic-release, create a release file by following the directions in the [README.md](https://github.com/waldronmatt/shareable-configs/tree/main/packages/semantic-release-config#readme).
 
 ### Webpack
 
