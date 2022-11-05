@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/postcss-config@1.4.3...@waldronmatt/postcss-config@1.5.0) (2022-11-05)
+
+### Bug Fixes
+
+- **readme.md:** add postcss-reporter reference ([306c3e0](https://github.com/waldronmatt/shareable-configs/commit/306c3e07a16056408f455f1f82029f4f37aa822c))
+
+### Features
+
+- **index.js:** add postcss-reporter, add browserslist as a peer dep ([36e9b5d](https://github.com/waldronmatt/shareable-configs/commit/36e9b5df30cabb673332afe4b54369d7a8efd5f1))
+
 ## [1.4.3](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/postcss-config@1.4.2...@waldronmatt/postcss-config@1.4.3) (2022-10-23)
 
 ### Bug Fixes

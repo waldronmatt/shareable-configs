@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/markdownlint-config@1.0.3...@waldronmatt/markdownlint-config@1.0.4) (2022-11-05)
+
+### Bug Fixes
+
+- **readme.md:** add extends section ([15f6cfc](https://github.com/waldronmatt/shareable-configs/commit/15f6cfcd2c9ef0f9d8c7b3c81af0c7f670f9e5c7))
+
 ## [1.0.3](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/markdownlint-config@1.0.2...@waldronmatt/markdownlint-config@1.0.3) (2022-10-23)
 
 ### Bug Fixes

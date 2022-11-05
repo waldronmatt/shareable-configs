@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.3](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/browserslist-config@1.2.2...@waldronmatt/browserslist-config@1.2.3) (2022-11-05)
+
+### Bug Fixes
+
+- **readme.md:** add index.js subtitle ([e1bee23](https://github.com/waldronmatt/shareable-configs/commit/e1bee230afa01f702b5ec57bde2a0a583653a946))
+
 ## [1.2.2](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/browserslist-config@1.2.1...@waldronmatt/browserslist-config@1.2.2) (2022-10-23)
 
 ### Bug Fixes

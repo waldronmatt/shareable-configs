@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/semantic-release-config@2.0.0...@waldronmatt/semantic-release-config@2.0.1) (2022-11-05)
+
+### Bug Fixes
+
+- **readme:** update Under The Hood section ([808fc12](https://github.com/waldronmatt/shareable-configs/commit/808fc128483f80997337b02b5b3f325544a00905))
+
 # [2.0.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/semantic-release-config@1.1.3...@waldronmatt/semantic-release-config@2.0.0) (2022-11-05)
 
 ### Features

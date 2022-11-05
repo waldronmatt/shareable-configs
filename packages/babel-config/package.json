@@ -1,6 +1,6 @@
 {
   "name": "@waldronmatt/babel-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A shareable babel configuration for projects.",
   "main": "index.js",
   "files": [

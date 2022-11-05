@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.5](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/commitizen-config@1.1.4...@waldronmatt/commitizen-config@1.1.5) (2022-11-05)
+
+### Bug Fixes
+
+- **readme.md:** update subtitle ([deec6e2](https://github.com/waldronmatt/shareable-configs/commit/deec6e206ca3c420a6997acd18fe4ecdfaf32cb0))
+
 ## [1.1.4](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/commitizen-config@1.1.3...@waldronmatt/commitizen-config@1.1.4) (2022-11-05)
 
 ### Bug Fixes
