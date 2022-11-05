@@ -1,6 +1,6 @@
 {
   "name": "@waldronmatt/babel-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A shareable babel configuration for projects.",
   "main": "index.js",
   "files": [
@@ -35,8 +35,8 @@
     "core-js": "^3.26.0"
   },
   "peerDependencies": {
-    "browserslist": ">= 4",
     "@babel/cli": ">= 7",
-    "@babel/core": ">= 7"
+    "@babel/core": ">= 7",
+    "browserslist": ">= 4"
   }
 }
