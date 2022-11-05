@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/semantic-release-config@1.1.3...@waldronmatt/semantic-release-config@2.0.0) (2022-11-05)
+
+### Features
+
+- **semantic-release-config:** add separate github, gitlab, npm configurations; update README.md ([6337285](https://github.com/waldronmatt/shareable-configs/commit/633728501fe3e8c26bbe3b2e95da499e83da0604))
+
+### BREAKING CHANGES
+
+- **semantic-release-config:** removed npm.js config, removed github package from index.js
+
 ## [1.1.3](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/semantic-release-config@1.1.2...@waldronmatt/semantic-release-config@1.1.3) (2022-10-23)
 
 ### Bug Fixes
