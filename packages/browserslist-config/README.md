@@ -18,6 +18,8 @@ extends @waldronmatt/browserslist-config
 
 ## Under The Hood
 
+### `index.js`
+
 - `browserslist`
 
 ## License
