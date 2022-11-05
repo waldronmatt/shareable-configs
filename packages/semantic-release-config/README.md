@@ -163,8 +163,39 @@ An example using the `github-npm` config with different branching strategies to 
 - `@semantic-release/commit-analyzer`
 - `@semantic-release/release-notes-generator`
 - `@semantic-release/changelog`
+- `@semantic-release/git`
+
+### `github.js`
+
+- `@semantic-release/commit-analyzer`
+- `@semantic-release/release-notes-generator`
+- `@semantic-release/changelog`
+- `@semantic-release/github`
+- `@semantic-release/git`
+
+### `github-npm.js`
+
+- `@semantic-release/commit-analyzer`
+- `@semantic-release/release-notes-generator`
+- `@semantic-release/changelog`
 - `@semantic-release/npm`
 - `@semantic-release/github`
+- `@semantic-release/git`
+
+### `gitlab.js`
+
+- `@semantic-release/commit-analyzer`
+- `@semantic-release/release-notes-generator`
+- `@semantic-release/changelog`
+- `@semantic-release/gitlab`
+- `@semantic-release/git`
+
+### `gitlab-npm.js`
+
+- `@semantic-release/commit-analyzer`
+- `@semantic-release/release-notes-generator`
+- `@semantic-release/changelog`
+- `@semantic-release/npm`
 - `@semantic-release/gitlab`
 - `@semantic-release/git`
 
