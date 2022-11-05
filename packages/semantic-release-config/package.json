@@ -5,7 +5,10 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "npm.js",
+    "github-npm.js",
+    "github.js",
+    "gitlab-npm.js",
+    "gitlab.js",
     "scripts/*"
   ],
   "scripts": {
@@ -37,6 +40,7 @@
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.6",
+    "@semantic-release/gitlab": "^9.5.0",
     "@semantic-release/npm": "^9.0.1",
     "@semantic-release/release-notes-generator": "^10.0.3"
   }
