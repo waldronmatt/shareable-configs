@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/waldronmatt/shareable-configs/issues"
   },
-  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/tsconfig-config#readme"
+  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/tsconfig-config#readme",
+  "peerDependencies": {
+    "typescript": ">= 4"
+  }
 }
