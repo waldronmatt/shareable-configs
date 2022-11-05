@@ -18,6 +18,17 @@ yarn add -D markdownlint @waldronmatt/markdownlint-config
 }
 ```
 
+## Extending
+
+**`.markdownlint.json`**
+
+```bash
+{
+  "extends": "./node_modules/@waldronmatt/markdownlint-config/index.json",
+  "MD013": false,
+}
+```
+
 ## Add an NPM Script
 
 Running this command:
