@@ -26,6 +26,7 @@ module.exports = require('@waldronmatt/postcss-config');
 - `postcss-flexbugs-fixes`
 - `postcss-normalize`
 - `postcss-preset-env`
+- `postcss-reporter`
 
 ## License
 
