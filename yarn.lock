@@ -8593,7 +8593,7 @@ postcss-replace-overflow-wrap@^4.0.0:
   resolved "https://registry.yarnpkg.com/postcss-replace-overflow-wrap/-/postcss-replace-overflow-wrap-4.0.0.tgz#d2df6bed10b477bf9c52fab28c568b4b29ca4319"
   integrity sha512-KmF7SBPphT4gPPcKZc7aDkweHiKEEO8cla/GjcBK+ckKxiZslIu3C4GCRW3DNfL0o7yW7kMQu9xlZ1kXRXLXtw==
 
-postcss-reporter@^7.0.0:
+postcss-reporter@^7.0.0, postcss-reporter@^7.0.5:
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/postcss-reporter/-/postcss-reporter-7.0.5.tgz#e55bd0fdf8d17e4f25fb55e9143fcd79349a2ceb"
   integrity sha512-glWg7VZBilooZGOFPhN9msJ3FQs19Hie7l5a/eE6WglzYqVeH3ong3ShFcp9kDWJT1g2Y/wd59cocf9XxBtkWA==
