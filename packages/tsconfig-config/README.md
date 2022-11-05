@@ -35,10 +35,6 @@ A basic configuration for projects:
 }
 ```
 
-## Under The Hood
-
-Config based on [https://github.com/tsconfig/bases/blob/main/bases/recommended.json](https://github.com/tsconfig/bases/blob/main/bases/recommended.json)
-
 ## License
 
 MIT
