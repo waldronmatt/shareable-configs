@@ -1,4 +1,4 @@
-Commitizen Setup
+# Commitizen Setup
 
 ## Install
 

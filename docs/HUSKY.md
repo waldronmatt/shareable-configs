@@ -1,4 +1,4 @@
-Husky Setup
+# Husky Setup
 
 ## Install
 

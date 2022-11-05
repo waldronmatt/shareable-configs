@@ -8,7 +8,9 @@ My personal shareable configurations with fully automated package publishing to 
 - Automated `CHANGELOG.md` generation and `GitHub` releases using conventional commits
 - Automated merging of `Dependabot` pull requests of dependency updates.
 
-## Installation
+## Usage
+
+### Installation
 
 Install all configs and associated packages as development dependencies (**excludes** Webpack):
 
