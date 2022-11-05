@@ -13,7 +13,7 @@ My personal shareable configurations with fully automated package publishing to 
 Install all configs and associated packages as development dependencies (**excludes** Webpack):
 
 ```bash
-yarn add -D @waldronmatt/browserslist-config commitizen @waldronmatt/commitizen-config @commitlint/cli @waldronmatt/commitlint-config eslint @waldronmatt/eslint-config htmlhint @waldronmatt/htmlhint-config jest @waldronmatt/jest-config lint-staged @waldronmatt/lint-staged-config markdownlint @waldronmatt/markdownlint-config postcss @waldronmatt/postcss-config prettier @waldronmatt/prettier-config secretlint @waldronmatt/secretlint-config semantic-release @waldronmatt/semantic-release-config stylelint @waldronmatt/stylelint-config @waldronmatt/tsconfig-config
+yarn add -D @waldronmatt/browserslist-config @commitlint/cli @waldronmatt/commitlint-config eslint @waldronmatt/eslint-config htmlhint @waldronmatt/htmlhint-config jest @waldronmatt/jest-config lint-staged @waldronmatt/lint-staged-config markdownlint @waldronmatt/markdownlint-config postcss @waldronmatt/postcss-config prettier @waldronmatt/prettier-config secretlint @waldronmatt/secretlint-config semantic-release @waldronmatt/semantic-release-config stylelint @waldronmatt/stylelint-config @waldronmatt/tsconfig-config
 ```
 
 ### Create Config Files
@@ -48,9 +48,9 @@ For Webpack, follow the directions in the [README.md](https://github.com/waldron
 
 ## Packages
 
-- [@waldronmatt/babel-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/babel-config#readme)
+- ~~[@waldronmatt/babel-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/babel-config#readme)~~ - **DEPRECATED**
 - [@waldronmatt/browserslist-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/browserslist-config#readme)
-- [@waldronmatt/commitizen-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/commitizen-config#readme)
+- ~~[@waldronmatt/commitizen-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/commitizen-config#readme)~~ - **DEPRECATED**
 - [@waldronmatt/commitlint-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/commitlint-config#readme)
 - [@waldronmatt/eslint-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/eslint-config#readme)
 - [@waldronmatt/htmlhint-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/htmlhint-config#readme)
@@ -70,6 +70,7 @@ For Webpack, follow the directions in the [README.md](https://github.com/waldron
 - [lerna-release-workflow](https://github.com/jonwa/lerna-release-workflow) - A basic Lerna monorepo with Yarn Workspaces, Conventional Commits and GitHub Actions.
 - [base-configs](https://github.com/demartini/base-configs) - A collection of base configs for code quality and linting tools.
 - [threepio](https://github.com/the-holocron/threepio) - Shareable configurations that are used within the Galaxy.
+- [medly](https://github.com/medly/configs) - Share common configurations across different projects.
 
 ## License
 
