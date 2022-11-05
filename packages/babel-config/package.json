@@ -37,6 +37,7 @@
   "peerDependencies": {
     "@babel/cli": ">= 7",
     "@babel/core": ">= 7",
-    "browserslist": ">= 4"
+    "browserslist": ">= 4",
+    "core-js": ">= 3"
   }
 }
