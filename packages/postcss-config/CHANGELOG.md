@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/postcss-config@1.5.0...@waldronmatt/postcss-config@1.5.1) (2022-11-06)
+
+### Bug Fixes
+
+- **package.json:** add sanitize.css as a peer dep ([9211773](https://github.com/waldronmatt/shareable-configs/commit/9211773a098fe4c9ad8de1aea0fe88dac29e7016))
+
 # [1.5.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/postcss-config@1.4.3...@waldronmatt/postcss-config@1.5.0) (2022-11-05)
 
 ### Bug Fixes
