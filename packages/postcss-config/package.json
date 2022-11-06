@@ -39,6 +39,7 @@
   },
   "peerDependencies": {
     "browserslist": ">= 4",
-    "postcss": ">= 8"
+    "postcss": ">= 8",
+    "sanitize.css": ">= 13"
   }
 }
