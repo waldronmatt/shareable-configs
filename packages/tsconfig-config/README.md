@@ -5,16 +5,28 @@ My personal shareable tsconfig configuration.
 ## Install
 
 ```bash
-yarn add -D @waldronmatt/tsconfig-config
+yarn add -D typescript @waldronmatt/tsconfig-config
 ```
 
 ## Usage
 
 **`tsconfig.json`**
 
+## Base
+
 ```json
 {
   "extends": "@waldronmatt/tsconfig-config/base.json"
+}
+```
+
+## Lib
+
+Useful defaults for code publishing and distribution:
+
+```json
+{
+  "extends": "@waldronmatt/tsconfig-config/lib.json"
 }
 ```
 

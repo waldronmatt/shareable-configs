@@ -5,6 +5,7 @@
   "main": "tsconfig.json",
   "files": [
     "base.json",
+    "lib.json",
     "scripts/*"
   ],
   "scripts": {
