@@ -15,7 +15,7 @@ My personal shareable configurations with fully automated package publishing to 
 Install all configs and associated packages as development dependencies (**excludes** Webpack):
 
 ```bash
-yarn add -D @waldronmatt/browserslist-config @commitlint/cli @waldronmatt/commitlint-config eslint @waldronmatt/eslint-config htmlhint @waldronmatt/htmlhint-config jest @waldronmatt/jest-config lint-staged @waldronmatt/lint-staged-config markdownlint @waldronmatt/markdownlint-config postcss @waldronmatt/postcss-config prettier @waldronmatt/prettier-config secretlint @waldronmatt/secretlint-config semantic-release @waldronmatt/semantic-release-config stylelint @waldronmatt/stylelint-config @waldronmatt/tsconfig-config
+yarn add -D @waldronmatt/browserslist-config @commitlint/cli @waldronmatt/commitlint-config eslint @waldronmatt/eslint-config htmlhint @waldronmatt/htmlhint-config jest @waldronmatt/jest-config lint-staged @waldronmatt/lint-staged-config markdownlint @waldronmatt/markdownlint-config postcss @waldronmatt/postcss-config prettier @waldronmatt/prettier-config secretlint @waldronmatt/secretlint-config semantic-release @waldronmatt/semantic-release-config stylelint @waldronmatt/stylelint-config typescript @waldronmatt/tsconfig-config
 ```
 
 ### Set up Husky
