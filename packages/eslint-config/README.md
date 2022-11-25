@@ -39,6 +39,7 @@ module.exports = {
 ## Extending
 
 An example configuring a mixed JS/TS, `tsconfig`-compatible configuration.
+
 **`.eslintrc.js`**
 
 ```js
