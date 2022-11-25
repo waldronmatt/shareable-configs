@@ -21,6 +21,7 @@ module.exports = require('@waldronmatt/postcss-config');
 ### `index.js`
 
 - `autoprefixer`
+- `browserslist`
 - `postcss-100vh-fix`
 - `postcss-cli`
 - `postcss-flexbugs-fixes`
