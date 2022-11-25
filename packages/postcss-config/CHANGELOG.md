@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.2](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/postcss-config@1.5.1...@waldronmatt/postcss-config@1.5.2) (2022-11-25)
+
+### Bug Fixes
+
+- **package.json:** add browserslist to dependencies ([369282e](https://github.com/waldronmatt/shareable-configs/commit/369282ef73df709c284788e777885c6b72cf314a))
+
 ## [1.5.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/postcss-config@1.5.0...@waldronmatt/postcss-config@1.5.1) (2022-11-06)
 
 ### Bug Fixes

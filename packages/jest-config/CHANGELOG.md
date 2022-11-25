@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/jest-config@1.3.0...@waldronmatt/jest-config@2.0.0) (2022-11-25)
+
+### Bug Fixes
+
+- **readme.md:** add script references and minor fixes ([2c10ad4](https://github.com/waldronmatt/shareable-configs/commit/2c10ad46115e4836a7ac311e65c32fee04535206))
+- **readme.md:** update extending and add recipes sections ([7fa595b](https://github.com/waldronmatt/shareable-configs/commit/7fa595bb2ad24d84bb8717796a49b3b802699c18))
+
+### Features
+
+- **jest-preset.js:** remove ignore and alias mappers for per-project opt-in ([05b12c5](https://github.com/waldronmatt/shareable-configs/commit/05b12c5e8799c6ae85f64c2aa824a1c5ad8b3fd3))
+
+### BREAKING CHANGES
+
+- **jest-preset.js:** removed transformIgnorePatterns and coveragePathIgnorePatterns
+
 # [1.3.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/jest-config@1.2.7...@waldronmatt/jest-config@1.3.0) (2022-10-23)
 
 ### Bug Fixes

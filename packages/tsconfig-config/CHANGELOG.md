@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/tsconfig-config@1.1.3...@waldronmatt/tsconfig-config@2.0.0) (2022-11-25)
+
+### Bug Fixes
+
+- **readme.md:** add recipes section and minor fixes ([dd4b518](https://github.com/waldronmatt/shareable-configs/commit/dd4b51845ae980dc6dca8a2fbf4c7796c95e8663))
+
+### Features
+
+- **base.json:** rename file from tsconfig.json to base.json ([2114997](https://github.com/waldronmatt/shareable-configs/commit/21149972d7270c2ffabb63935a0bfb3f1dc5587c))
+- **lib.json:** add a library configuration with defaults for library publishing ([f31f2b1](https://github.com/waldronmatt/shareable-configs/commit/f31f2b1e427bf5cd6b1009278c229acf85e9c0ce))
+
+### BREAKING CHANGES
+
+- **base.json:** the main configuration will need to be referenced directly via /base.json
+
 ## [1.1.3](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/tsconfig-config@1.1.2...@waldronmatt/tsconfig-config@1.1.3) (2022-11-05)
 
 ### Bug Fixes

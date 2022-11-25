@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/lint-staged-config@1.2.1...@waldronmatt/lint-staged-config@2.0.0) (2022-11-25)
+
+### Bug Fixes
+
+- **readme.md:** update extending section example ([249386d](https://github.com/waldronmatt/shareable-configs/commit/249386d9c362c56f777cc0355fb94c8199318e3c))
+
+### Features
+
+- **index.js:** remove json, md, and css/scss linting ([a9071ad](https://github.com/waldronmatt/shareable-configs/commit/a9071ad0c5e25755062b8e8c727d3dc0fa2f83bf))
+
+### BREAKING CHANGES
+
+- **index.js:** remove non-js references for user to opt-in
+
 ## [1.2.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/lint-staged-config@1.2.0...@waldronmatt/lint-staged-config@1.2.1) (2022-10-23)
 
 ### Bug Fixes
