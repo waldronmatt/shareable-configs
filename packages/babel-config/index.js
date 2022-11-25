@@ -1,4 +1,6 @@
 /* eslint-disable global-require */
+// use browserslist to define targets for polyfills and code transforms
+// use corejs for intelligent loading of polyfills depending on the target
 module.exports = {
   presets: [
     // https://github.com/babel/babel/issues/9853#issuecomment-619587386

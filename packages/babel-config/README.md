@@ -10,6 +10,20 @@
 yarn add -D @babel/cli @babel/core @waldronmatt/babel-config
 ```
 
+Allow `babel-preset-env` to target polyfills and code transforms via a `.browserslistrc` file:
+
+```bash
+yarn add -D @waldronmatt/browserslist-config
+```
+
+And create:
+
+**`.browserslistrc`**
+
+```bash
+extends @waldronmatt/browserslist-config
+```
+
 ## Usage
 
 **`babel.config.js`**
@@ -38,6 +52,7 @@ module.exports = {
 - `@babel/plugin-transform-runtime`
 - `@babel/preset-env`
 - `@babel/runtime`
+- `browserslist`
 - `core-js`
 
 ## License

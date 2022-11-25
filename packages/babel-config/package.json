@@ -32,12 +32,11 @@
     "@babel/plugin-transform-runtime": "^7.19.6",
     "@babel/preset-env": "^7.20.2",
     "@babel/runtime": "^7.20.1",
+    "browserslist": ">= 4",
     "core-js": "^3.26.0"
   },
   "peerDependencies": {
     "@babel/cli": ">= 7",
-    "@babel/core": ">= 7",
-    "browserslist": ">= 4",
-    "core-js": ">= 3"
+    "@babel/core": ">= 7"
   }
 }
