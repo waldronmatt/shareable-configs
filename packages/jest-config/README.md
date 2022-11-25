@@ -74,7 +74,7 @@ module.exports = {
 };
 ```
 
-Run tests against source files and bundle output:
+Run tests against source files and bundle output. Configuration includes [paths mapping with `Jest` and `tsconfig`](https://kulshekhar.github.io/ts-jest/docs/getting-started/paths-mapping/).
 
 Install `cross-env`:
 
@@ -99,7 +99,6 @@ module.exports = {
 
 ```json
 {
-  "extends": "my-config.json",
   "exclude": ["node_modules", "dist"],
   "compilerOptions": {
     "rootDir": "src",
@@ -115,10 +114,10 @@ module.exports = {
 **`package.json`**
 
 ```json
-  "scripts": {
-    "test": "jest",
-    "test:prod": "cross-env TEST_ENV=prod jest",
-  },
+"scripts": {
+  "test": "jest",
+  "test:prod": "cross-env TEST_ENV=prod jest"
+},
 ```
 
 ## Add an NPM Script
@@ -136,6 +135,26 @@ Will create:
 ```json
 "scripts": {
   "test": "jest"
+},
+```
+
+Run tests in watch mode:
+
+**`package.json`**
+
+```json
+"scripts": {
+  "test:watch": "jest --watch"
+},
+```
+
+Run test with coverage output:
+
+**`package.json`**
+
+```json
+"scripts": {
+  "test:coverage": "jest --coverage"
 },
 ```
 
