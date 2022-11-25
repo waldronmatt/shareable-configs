@@ -14,7 +14,7 @@ yarn add -D @waldronmatt/tsconfig-config
 
 ```json
 {
-  "extends": "@waldronmatt/tsconfig-config"
+  "extends": "@waldronmatt/tsconfig-config/base.json"
 }
 ```
 
@@ -26,7 +26,7 @@ A basic configuration for projects:
 
 ```json
 {
-  "extends": "@waldronmatt/tsconfig-config",
+  "extends": "@waldronmatt/tsconfig-config/base.json",
   "compilerOptions": {
     "outDir": "dist"
   },
