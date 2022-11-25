@@ -38,18 +38,25 @@ module.exports = {
 
 ## Extending
 
-An example configuring a mixed JS/TS, `tsconfig`-compatible configuration with jest linting.
-
+An example configuring a mixed JS/TS, `tsconfig`-compatible configuration.
 **`.eslintrc.js`**
 
 ```js
 module.exports = {
+  // ignore linting in dist bundle output folder
   ignorePatterns: ['dist/**'],
+  // enable global variables
+  env: {
+    browser: true,
+    node: true,
+    jest: true,
+  }
   overrides: [
     {
       files: ['**/*.ts'],
       extends: [
         '@waldronmatt/eslint-config/ts',
+        // add jest linting
         '@waldronmatt/eslint-config/jest',
       ],
       parserOptions: {
@@ -61,6 +68,7 @@ module.exports = {
       files: ['**/*.js'],
       extends: [
         '@waldronmatt/eslint-config',
+        // add jest linting
         '@waldronmatt/eslint-config/jest',
       ],
     },
