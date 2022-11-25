@@ -36,6 +36,7 @@ An example configuring a mixed CSS/SCSS configuration.
 
 ```js
 module.exports = {
+  // ignore linting in dist bundle output folder
   ignoreFiles: ['dist/**'],
   extends: '@waldronmatt/stylelint-config/scss',
   overrides: [
