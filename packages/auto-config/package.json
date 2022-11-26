@@ -1,6 +1,6 @@
 {
   "name": "@waldronmatt/auto-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A shareable auto configuration for projects.",
   "main": ".autorc",
   "files": [
