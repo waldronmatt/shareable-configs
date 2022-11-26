@@ -52,26 +52,6 @@ npx husky add .husky/commit-msg 'npx --no-install commitlint --edit' && npx husk
 
 For Webpack, follow the directions in the [README.md](https://github.com/waldronmatt/shareable-configs/tree/main/packages/webpack-config#readme).
 
-## Packages
-
-- [@waldronmatt/auto-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/auto-config#readme)
-- ~~[@waldronmatt/babel-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/babel-config#readme)~~ - **DEPRECATED**
-- [@waldronmatt/browserslist-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/browserslist-config#readme)
-- ~~[@waldronmatt/commitizen-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/commitizen-config#readme)~~ - **DEPRECATED**
-- [@waldronmatt/commitlint-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/commitlint-config#readme)
-- [@waldronmatt/eslint-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/eslint-config#readme)
-- [@waldronmatt/htmlhint-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/htmlhint-config#readme)
-- [@waldronmatt/jest-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/jest-config#readme)
-- [@waldronmatt/lint-staged-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/lint-staged-config#readme)
-- [@waldronmatt/markdownlint-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/markdownlint-config#readme)
-- [@waldronmatt/postcss-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/postcss-config#readme)
-- [@waldronmatt/prettier-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/prettier-config#readme)
-- [@waldronmatt/secretlint-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/secretlint-config#readme)
-- [@waldronmatt/semantic-release-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/semantic-release-config#readme)
-- [@waldronmatt/stylelint-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/stylelint-config#readme)
-- [@waldronmatt/tsconfig-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/tsconfig-config#readme)
-- [@waldronmatt/webpack-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/webpack-config#readme)
-
 ## Other Awesome Monorepos
 
 - [lerna-release-workflow](https://github.com/jonwa/lerna-release-workflow) - A basic Lerna monorepo with Yarn Workspaces, Conventional Commits and GitHub Actions.
