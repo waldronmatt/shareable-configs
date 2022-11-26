@@ -58,6 +58,8 @@ For Webpack, follow the directions in the [README.md](https://github.com/waldron
 - [base-configs](https://github.com/demartini/base-configs) - A collection of base configs for code quality and linting tools.
 - [threepio](https://github.com/the-holocron/threepio) - Shareable configurations that are used within the Galaxy.
 - [medly](https://github.com/medly/configs) - Share common configurations across different projects.
+- [code-quality-tools](https://github.com/strvcom/code-quality-tools) - Shareable configurations for various coding-style/best practices/lint tools.
+- [frontend-configs](https://github.com/drivy/frontend-configs) - NPM-Published front-end shareable configurations.
 
 ## License
 
