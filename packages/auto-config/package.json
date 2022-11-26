@@ -1,0 +1,37 @@
+{
+  "name": "@waldronmatt/auto-config",
+  "version": "1.0.0",
+  "description": "A shareable auto configuration for projects.",
+  "main": ".autorc",
+  "files": [
+    ".autorc",
+    "index.json"
+  ],
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldronmatt/shareable-configs.git",
+    "directory": "packages/auto-config"
+  },
+  "keywords": [
+    "auto",
+    "auto-config"
+  ],
+  "author": "Matthew Waldron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+  },
+  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/auto-config#readme",
+  "dependencies": {
+    "@auto-it/conventional-commits": "^10.37.6"
+  },
+  "peerDependencies": {
+    "auto": ">= 10"
+  }
+}

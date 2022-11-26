@@ -15,7 +15,7 @@ My personal shareable configurations with fully automated package publishing to 
 Install all configs and associated packages as development dependencies (**excludes** Webpack):
 
 ```bash
-yarn add -D @waldronmatt/browserslist-config @commitlint/cli @waldronmatt/commitlint-config eslint @waldronmatt/eslint-config htmlhint @waldronmatt/htmlhint-config jest @waldronmatt/jest-config lint-staged @waldronmatt/lint-staged-config markdownlint @waldronmatt/markdownlint-config postcss @waldronmatt/postcss-config prettier @waldronmatt/prettier-config secretlint @waldronmatt/secretlint-config semantic-release @waldronmatt/semantic-release-config stylelint @waldronmatt/stylelint-config typescript @waldronmatt/tsconfig-config
+yarn add -D auto @waldronmatt/auto-config @waldronmatt/browserslist-config @commitlint/cli @waldronmatt/commitlint-config eslint @waldronmatt/eslint-config htmlhint @waldronmatt/htmlhint-config jest @waldronmatt/jest-config lint-staged @waldronmatt/lint-staged-config markdownlint @waldronmatt/markdownlint-config postcss @waldronmatt/postcss-config prettier @waldronmatt/prettier-config secretlint @waldronmatt/secretlint-config semantic-release @waldronmatt/semantic-release-config stylelint @waldronmatt/stylelint-config typescript @waldronmatt/tsconfig-config
 ```
 
 ### Set up Husky
@@ -54,6 +54,7 @@ For Webpack, follow the directions in the [README.md](https://github.com/waldron
 
 ## Packages
 
+- [@waldronmatt/auto-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/auto-config#readme)
 - ~~[@waldronmatt/babel-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/babel-config#readme)~~ - **DEPRECATED**
 - [@waldronmatt/browserslist-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/browserslist-config#readme)
 - ~~[@waldronmatt/commitizen-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/commitizen-config#readme)~~ - **DEPRECATED**

@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    [
+      "npm",
+      {
+        "forcePublish": false
+      }
+    ],
+    [
+      "conventional-commits",
+      {
+        "preset": "angular"
+      }
+    ]
+  ]
+}
