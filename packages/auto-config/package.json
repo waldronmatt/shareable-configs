@@ -4,14 +4,29 @@
   "description": "A shareable auto configuration for projects.",
   "main": ".autorc",
   "files": [
-    ".autorc",
-    "index.json"
+    ".autorc"
   ],
   "scripts": {
     "test": "echo \"No test specified\""
   },
   "publishConfig": {
     "access": "public"
+  },
+  "auto": {
+    "plugins": [
+      [
+        "npm",
+        {
+          "forcePublish": false
+        }
+      ],
+      [
+        "conventional-commits",
+        {
+          "preset": "angular"
+        }
+      ]
+    ]
   },
   "repository": {
     "type": "git",
