@@ -99,9 +99,9 @@ module.exports = {
 
 ```json
 {
-  "exclude": ["node_modules", "dist"],
+  "extends": "my-config.json",
+  "exclude": ["node_modules", "dist", "coverage"],
   "compilerOptions": {
-    "rootDir": "src",
     "outDir": "dist",
     "baseUrl": "./",
     "paths": {
