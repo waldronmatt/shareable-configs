@@ -115,20 +115,28 @@ Exclude test files from compilation, but still have them type checked:
 },
 ```
 
-Clean up bundle, typescript, and jest artifacts:
+Clean up bundle and artifacts with your build script:
 
-Install `rimraf`:
+Install `rimraf` and `npm-run-all`:
 
 ```bash
-yarn add -D rimraf
+yarn add -D rimraf npm-run-all
 ```
 
 **`package.json`**
 
 ```json
 "scripts": {
-  "clean": "rimraf dist coverage tsconfig.build.tsbuildinfo"
+  "clean": "rimraf dist coverage tsconfig.build.tsbuildinfo",
+  "compile": "tsc --project tsconfig.build.json",
+  "build": "run-s clean compile",
 },
+```
+
+And then you can run:
+
+```bash
+yarn build
 ```
 
 ## License
