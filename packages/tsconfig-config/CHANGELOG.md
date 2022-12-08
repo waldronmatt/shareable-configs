@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/tsconfig-config@2.0.0...@waldronmatt/tsconfig-config@2.0.1) (2022-12-08)
+
+### Bug Fixes
+
+- **readme.md:** update typescript recipe ([0a9e997](https://github.com/waldronmatt/shareable-configs/commit/0a9e997d23bcfe3962161356b446a5cfa04a8af5))
+
 # [2.0.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/tsconfig-config@1.1.3...@waldronmatt/tsconfig-config@2.0.0) (2022-11-25)
 
 ### Bug Fixes
