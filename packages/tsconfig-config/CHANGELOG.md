@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.2](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/tsconfig-config@2.0.1...@waldronmatt/tsconfig-config@2.0.2) (2022-12-08)
+
+### Bug Fixes
+
+- **readme.md:** update recipies section ([8178e00](https://github.com/waldronmatt/shareable-configs/commit/8178e00b830725d8be405534b5f5ee9e55380c47))
+
 ## [2.0.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/tsconfig-config@2.0.0...@waldronmatt/tsconfig-config@2.0.1) (2022-12-08)
 
 ### Bug Fixes

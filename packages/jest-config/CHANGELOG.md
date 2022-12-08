@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/jest-config@2.0.0...@waldronmatt/jest-config@2.0.1) (2022-12-08)
+
+### Bug Fixes
+
+- **readme.md:** update recipe section ([7c3d653](https://github.com/waldronmatt/shareable-configs/commit/7c3d6536326a736863930a89be7d785bdb9261bf))
+
 # [2.0.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/jest-config@1.3.0...@waldronmatt/jest-config@2.0.0) (2022-11-25)
 
 ### Bug Fixes
