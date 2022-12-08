@@ -64,14 +64,14 @@ A basic configuration for projects:
 
 ## Recipes
 
-[Lint your configuration files (`eslintrc.js`, ect.) that shouldn't be part of your existing `tsconfig` file:](https://typescript-eslint.io/docs/linting/troubleshooting/#i-get-errors-telling-me-eslint-was-configured-to-run--however-that-tsconfig-does-not--none-of-those-tsconfigs-include-this-file)
+Lint your source and configuration/dot files (`eslintrc.js`, ect.) that [shouldn't be part of your existing `tsconfig` file:](https://typescript-eslint.io/docs/linting/troubleshooting/#i-get-errors-telling-me-eslint-was-configured-to-run--however-that-tsconfig-does-not--none-of-those-tsconfigs-include-this-file)
 
 **`tsconfig.eslint.json`**
 
 ```json
 {
   "extends": "./tsconfig.json",
-  "include": [".eslintrc.js", "src/*"],
+  "include": [".*.js", "*.js", "src/*"],
   "compilerOptions": {
     "noEmit": true,
     "allowJs": true
@@ -93,17 +93,18 @@ module.exports = {
   rules: {
     'import/extensions': 'off',
   },
+  ignorePatterns: ['dist/**'],
 };
 ```
 
-Exclude test files from compilation, but still have them type checked:
+Exclude test and configuration/dot files from compilation, but still have them type checked:
 
 **`tsconfig.build.json`**
 
 ```json
 {
   "extends": "./tsconfig.json",
-  "exclude": ["src/**/*.spec.ts", "src/**/*.test.ts"]
+  "exclude": [".*.js", "*.js", "src/*.spec.ts"]
 }
 ```
 
@@ -111,7 +112,7 @@ Exclude test files from compilation, but still have them type checked:
 
 ```json
 "scripts": {
-  "build": "tsc --project tsconfig.build.json"
+  "compile": "tsc --project tsconfig.build.json"
 },
 ```
 
