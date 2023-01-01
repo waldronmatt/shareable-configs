@@ -2819,9 +2819,9 @@
     url-join "^4.0.0"
 
 "@semantic-release/gitlab@^9.5.0":
-  version "9.5.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/gitlab/-/gitlab-9.5.0.tgz#450acebba58e74b139dfe7023941309a26318028"
-  integrity sha512-VmItAoh7vTfl30ekuTLvMmIgxVJMgE2tTucGeWIUrxu0HuiL5EIjLN72gqmRS1IfN1NwcQlaA+d6J1EgpsgVjA==
+  version "9.5.1"
+  resolved "https://registry.yarnpkg.com/@semantic-release/gitlab/-/gitlab-9.5.1.tgz#da69fdc2e840857bbc9bc383dc589d266a4a3cb8"
+  integrity sha512-QQvIgB/uOUi/cGi0bUndaOki+E1n4XWdRK4WtYIYsPE6AM9r9L7kb5jHzxihHwMvfVA38xSWal4IgLnBX9V7AQ==
   dependencies:
     "@semantic-release/error" "^3.0.0"
     aggregate-error "^3.0.0"
@@ -2829,7 +2829,7 @@
     dir-glob "^3.0.0"
     escape-string-regexp "^3.0.0"
     form-data "^4.0.0"
-    fs-extra "^10.0.0"
+    fs-extra "^11.0.0"
     globby "^11.0.0"
     got "^11.0.0"
     hpagent "^1.0.0"
