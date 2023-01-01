@@ -33,7 +33,7 @@
     "husky": "^8.0.1",
     "lerna": "^6.0.1",
     "lint-staged": "^13.0.3",
-    "markdownlint": "^0.26.2",
+    "markdownlint": "^0.27.0",
     "prettier": "^2.7.1",
     "secretlint": "^5.2.4",
     "syncyarnlock": "^1.0.19"
