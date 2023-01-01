@@ -10205,9 +10205,11 @@ stylelint-config-standard@^29.0.0:
     stylelint-config-recommended "^9.0.0"
 
 stylelint-high-performance-animation@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/stylelint-high-performance-animation/-/stylelint-high-performance-animation-1.6.0.tgz#c436726ef611099d2835ecf5c49245236e3c562d"
-  integrity sha512-RW3XbNLMoKcqY97NTNLXzfg4IGzCfaIf+s4aQem7BzN5IYqYLdYuU1WCqMCoiZHRILQIkrkNvcaQOAu7bA9qxw==
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/stylelint-high-performance-animation/-/stylelint-high-performance-animation-1.7.0.tgz#c4b7da56e002d33c24328d6173f05e05f8efb0fe"
+  integrity sha512-Gq3tiCAhHU0WZBVwiCYKk+Kdkf1EeHyzDruRvDL9EhqrkpKxkktIzqmX+RM+Jn7s1sN9iAnoYIXPa0Py6d7j/Q==
+  dependencies:
+    postcss-value-parser "^4.2.0"
 
 stylelint-no-unsupported-browser-features@^6.0.1:
   version "6.0.1"
