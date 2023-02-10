@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.12](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.5.11...@waldronmatt/eslint-config@1.5.12) (2023-02-10)
+
+**Note:** Version bump only for package @waldronmatt/eslint-config
+
 ## [1.5.11](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.5.10...@waldronmatt/eslint-config@1.5.11) (2022-11-25)
 
 ### Bug Fixes
