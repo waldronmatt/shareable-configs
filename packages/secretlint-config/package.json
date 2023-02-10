@@ -1,6 +1,6 @@
 {
   "name": "@waldronmatt/secretlint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A shareable secretlint configuration for projects.",
   "main": "index.json",
   "files": [

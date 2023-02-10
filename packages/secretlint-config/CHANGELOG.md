@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/secretlint-config@1.0.3...@waldronmatt/secretlint-config@1.0.4) (2023-02-10)
+
+**Note:** Version bump only for package @waldronmatt/secretlint-config
+
 ## [1.0.3](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/secretlint-config@1.0.2...@waldronmatt/secretlint-config@1.0.3) (2022-11-05)
 
 ### Bug Fixes
