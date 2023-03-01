@@ -25,7 +25,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org/'
 
       - name: Cache Node Modules
-        uses: actions/cache@v3.2.5
+        uses: actions/cache@v3.2.6
         id: cache
         with:
           path: node_modules
