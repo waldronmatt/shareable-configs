@@ -30,7 +30,7 @@
   "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/webpack-config#readme",
   "dependencies": {
     "css-loader": "^6.7.1",
-    "esbuild-loader": "^2.20.0",
+    "esbuild-loader": "^3.0.1",
     "fork-ts-checker-webpack-plugin": "^7.2.13",
     "mini-css-extract-plugin": "^2.6.1",
     "postcss-loader": "^7.0.1",
