@@ -31,7 +31,7 @@
   "dependencies": {
     "css-loader": "^6.7.1",
     "esbuild-loader": "^3.0.1",
-    "fork-ts-checker-webpack-plugin": "^7.2.13",
+    "fork-ts-checker-webpack-plugin": "^8.0.0",
     "mini-css-extract-plugin": "^2.6.1",
     "postcss-loader": "^7.0.1",
     "sass": "^1.55.0",
