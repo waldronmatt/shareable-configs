@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.14](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/stylelint-config@1.2.13...@waldronmatt/stylelint-config@1.2.14) (2023-04-09)
+
+**Note:** Version bump only for package @waldronmatt/stylelint-config
+
 ## [1.2.13](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/stylelint-config@1.2.12...@waldronmatt/stylelint-config@1.2.13) (2023-02-10)
 
 **Note:** Version bump only for package @waldronmatt/stylelint-config
