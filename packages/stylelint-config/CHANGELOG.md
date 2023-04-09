@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.16](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/stylelint-config@1.2.15...@waldronmatt/stylelint-config@1.2.16) (2023-04-09)
+
+### Bug Fixes
+
+- **package.json:** upgrade standard-scss to fix stuck mr and upgrade stylelint peer deep ([2e2ebca](https://github.com/waldronmatt/shareable-configs/commit/2e2ebcad330436c676cf349886fea350f3043f8d))
+
 ## [1.2.15](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/stylelint-config@1.2.14...@waldronmatt/stylelint-config@1.2.15) (2023-04-09)
 
 **Note:** Version bump only for package @waldronmatt/stylelint-config
