@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@3.0.0...@waldronmatt/webpack-config@3.0.1) (2023-04-09)
+
+**Note:** Version bump only for package @waldronmatt/webpack-config
+
 # [3.0.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.9.5...@waldronmatt/webpack-config@3.0.0) (2023-04-09)
 
 ### Features
