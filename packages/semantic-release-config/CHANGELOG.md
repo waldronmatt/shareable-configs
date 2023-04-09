@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.3](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/semantic-release-config@2.0.2...@waldronmatt/semantic-release-config@2.0.3) (2023-04-09)
+
+**Note:** Version bump only for package @waldronmatt/semantic-release-config
+
 ## [2.0.2](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/semantic-release-config@2.0.1...@waldronmatt/semantic-release-config@2.0.2) (2023-04-09)
 
 **Note:** Version bump only for package @waldronmatt/semantic-release-config
