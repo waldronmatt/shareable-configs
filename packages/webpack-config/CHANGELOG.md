@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.9.5...@waldronmatt/webpack-config@3.0.0) (2023-04-09)
+
+### Features
+
+- **webpack-config:** consolidate js loaders into one ([2cbabe1](https://github.com/waldronmatt/shareable-configs/commit/2cbabe1a75bfa861c8c0565f8d407be800cbcfe1))
+
+### BREAKING CHANGES
+
+- **webpack-config:** esbuild upgrade eliminated loader option and can consolidate js loader api into one
+
 ## [2.9.5](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.9.4...@waldronmatt/webpack-config@2.9.5) (2022-10-23)
 
 ### Bug Fixes
