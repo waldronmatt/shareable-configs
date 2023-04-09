@@ -22,15 +22,11 @@ const parts = (isProduction, env) => {
   ];
 
   /**
-   * Loads CSS files.
+   * Load `.css` files.
    *
    * `MiniCssExtractPlugin.loader` for `production` builds
    *
    * `style-loader` for `development` builds
-   *
-   * `css-loader`
-   *
-   * `postcss-loader`
    *
    * @param {array} include
    * @param {array} exclude
@@ -49,17 +45,11 @@ const parts = (isProduction, env) => {
   });
 
   /**
-   * Loads Sass files.
+   * Load `.scss` files.
    *
    * `MiniCssExtractPlugin.loader` for `production` builds
    *
    * `style-loader` for `development` builds
-   *
-   * `css-loader`
-   *
-   * `postcss-loader`
-   *
-   * `sass-loader`
    *
    * @param {array} include
    * @param {array} exclude
@@ -118,7 +108,12 @@ const parts = (isProduction, env) => {
   });
 
   /**
-   * Load `.js` files.
+   * Load `.js` / `.ts` files.
+   *
+   * `js`
+   * `ts`
+   * `jsx`
+   * `tsx`
    *
    * @param {string} target
    *
@@ -131,96 +126,11 @@ const parts = (isProduction, env) => {
     module: {
       rules: [
         {
-          test: /\.js$/,
-          include,
-          exclude,
-          // eslint-disable-next-line sonarjs/no-duplicate-string
-          loader: 'esbuild-loader',
-          options: {
-            // eslint-disable-next-line object-shorthand
-            target: target,
-          },
-        },
-      ],
-    },
-  });
-
-  /**
-   * Load `.jsx` files.
-   *
-   * @param {string} target
-   *
-   * set to `es2015` by default
-   *
-   * @param {array} include
-   * @param {array} exclude
-   */
-  module.exports.loadJSX = ({ target = 'es2015', include, exclude }) => ({
-    module: {
-      rules: [
-        {
-          test: /\.jsx$/,
+          test: /\.[jt]sx?$/,
           include,
           exclude,
           loader: 'esbuild-loader',
           options: {
-            loader: 'jsx',
-            // eslint-disable-next-line object-shorthand
-            target: target,
-          },
-        },
-      ],
-    },
-  });
-
-  /**
-   * Load `.ts` files with type checking on `development` builds.
-   *
-   * @param {string} target
-   *
-   * set to `es2015` by default
-   *
-   * @param {array} include
-   * @param {array} exclude
-   */
-  module.exports.loadTS = ({ target = 'es2015', include, exclude }) => ({
-    module: {
-      rules: [
-        {
-          test: /\.ts$/,
-          include,
-          exclude,
-          loader: 'esbuild-loader',
-          options: {
-            loader: 'ts',
-            // eslint-disable-next-line object-shorthand
-            target: target,
-          },
-        },
-      ],
-    },
-  });
-
-  /**
-   * Load `.tsx` files with type checking on `development` builds.
-   *
-   * @param {string} target
-   *
-   * set to `es2015` by default
-   *
-   * @param {array} include
-   * @param {array} exclude
-   */
-  module.exports.loadTSX = ({ target = 'es2015', include, exclude }) => ({
-    module: {
-      rules: [
-        {
-          test: /\.tsx$/,
-          include,
-          exclude,
-          loader: 'esbuild-loader',
-          options: {
-            loader: 'tsx',
             // eslint-disable-next-line object-shorthand
             target: target,
           },
@@ -233,6 +143,7 @@ const parts = (isProduction, env) => {
    * Enable TypeScript checking for development builds.
    */
   module.exports.enableTypeChecking = () => ({
+    // eslint-disable-next-line unicorn/no-negated-condition
     plugins: [!isProduction ? new ForkTsCheckerWebpackPlugin() : false].filter(
       Boolean
     ),
