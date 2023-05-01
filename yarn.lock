@@ -2,17 +2,17 @@
 # yarn lockfile v1
 
 
-"@auto-it/bot-list@10.43.0":
-  version "10.43.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-10.43.0.tgz#1a054a5ba0de3d68657a2f453de2ceffb3ea0ccc"
-  integrity sha512-rQshCAEjtRhF8oFL9VNxBm6nWibd+YVSnMfxPhg6v4Mbs0xBIoF3Nzu7aTEjOkSl9+YIaRWnVV70bALAFgI0MQ==
+"@auto-it/bot-list@10.46.0":
+  version "10.46.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-10.46.0.tgz#8e8c3d3bb68b8b4e13705fff373fbdab14869249"
+  integrity sha512-QkkBgQVi1g/1Tpxcs3Hm3zTzaaM0xjiIRt5xEA6TRM/ULdgEqY+Jk/w1fJZe9GVF+53mwRfqGtQeJirilMBH6g==
 
 "@auto-it/conventional-commits@^10.37.6":
-  version "10.43.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/conventional-commits/-/conventional-commits-10.43.0.tgz#522b221464c4df6b433d7dac0fdbba365366d508"
-  integrity sha512-UBuBAMlk/pO/UTrLYcfvvjy5u5ZbUmj9sAXS9uVO7wZKXZaGW1poga2tPEAZa0l3op7pasYg5Gsd80wdq/hmjQ==
+  version "10.46.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/conventional-commits/-/conventional-commits-10.46.0.tgz#8c7a81d34f1de16726312cd4b97a3414de38a162"
+  integrity sha512-hMtGTkumjZSY31T/t2zI5lHyKjNbZy/fpeE0NukRbi7+UJu4RM2cH/dTj3hoGv43ohMn54hwqfNjJipHu8TETA==
   dependencies:
-    "@auto-it/core" "10.43.0"
+    "@auto-it/core" "10.46.0"
     array.prototype.flatmap "^1.2.2"
     conventional-changelog-core "^4.2.0"
     conventional-changelog-preset-loader "^2.3.4"
@@ -22,12 +22,12 @@
     io-ts "^2.1.2"
     tslib "2.1.0"
 
-"@auto-it/core@10.43.0":
-  version "10.43.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-10.43.0.tgz#05bb8f9544273ab4b3ce4b6cff12115ec644031c"
-  integrity sha512-aAhEodT0y2gS1ueKl2iCMc5VDK9jZMnuspGDaR8SBKcsP7o8R6hxKtxGc2cAAoNOPewcBpe72Yy8768FLoUhAQ==
+"@auto-it/core@10.46.0":
+  version "10.46.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-10.46.0.tgz#f7445ab03478cd9819e6bb78b1e5a441240dbf5f"
+  integrity sha512-68jWcUuQBFCjgUvEWa64ENeRPULFYiaFpo37H6SUuLcZ2XBD+Bt4Y0yqHWjs6F5g19S7pzOYe25SxWf+U0J4LQ==
   dependencies:
-    "@auto-it/bot-list" "10.43.0"
+    "@auto-it/bot-list" "10.46.0"
     "@endemolshinegroup/cosmiconfig-typescript-loader" "^3.0.2"
     "@octokit/core" "^3.5.1"
     "@octokit/plugin-enterprise-compatibility" "1.3.0"
