@@ -2648,9 +2648,9 @@
     url-join "^4.0.0"
 
 "@semantic-release/gitlab@^12.0.1":
-  version "12.0.3"
-  resolved "https://registry.yarnpkg.com/@semantic-release/gitlab/-/gitlab-12.0.3.tgz#3684bf669915e93d7a6f89c11556dcbff045ffad"
-  integrity sha512-CldGFrEoXduOWmp+jjbn/mzU5johxT5cYDxWqQnRQXVyX4JdK33bF9qSEhwn0l4Dm2NmhoSdFA0T7EmwiJtm9w==
+  version "12.0.5"
+  resolved "https://registry.yarnpkg.com/@semantic-release/gitlab/-/gitlab-12.0.5.tgz#533860a1a90472c34d13d131a7fdc594305e828d"
+  integrity sha512-7iLeD5J0BF34jBUKTYbJT+Z+J9j55PXeR78wKWq9Lqbc8Y566D0g8BNVl9HUVSv6eipELdkqS+zMyTDGqiUL1w==
   dependencies:
     "@semantic-release/error" "^4.0.0"
     aggregate-error "^4.0.0"
