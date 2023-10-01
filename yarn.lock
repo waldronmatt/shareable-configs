@@ -2667,12 +2667,12 @@
     url-join "^4.0.0"
 
 "@semantic-release/gitlab@^12.0.1":
-  version "12.0.5"
-  resolved "https://registry.yarnpkg.com/@semantic-release/gitlab/-/gitlab-12.0.5.tgz#533860a1a90472c34d13d131a7fdc594305e828d"
-  integrity sha512-7iLeD5J0BF34jBUKTYbJT+Z+J9j55PXeR78wKWq9Lqbc8Y566D0g8BNVl9HUVSv6eipELdkqS+zMyTDGqiUL1w==
+  version "12.0.6"
+  resolved "https://registry.yarnpkg.com/@semantic-release/gitlab/-/gitlab-12.0.6.tgz#00c9c1cf9e8781f88c39359b757c3b8c91957d59"
+  integrity sha512-NjGq+6cA64bQIyAjFSxzXxUJCS94fAtw8QMQSvuUycqhbQqXvjTKuknm9fS327leZURqslDMMKwEMuj0cHy31g==
   dependencies:
     "@semantic-release/error" "^4.0.0"
-    aggregate-error "^4.0.0"
+    aggregate-error "^5.0.0"
     debug "^4.0.0"
     dir-glob "^3.0.0"
     escape-string-regexp "^5.0.0"
@@ -3342,12 +3342,20 @@ aggregate-error@^3.0.0:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
 
-aggregate-error@^4.0.0, aggregate-error@^4.0.1:
+aggregate-error@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/aggregate-error/-/aggregate-error-4.0.1.tgz#25091fe1573b9e0be892aeda15c7c66a545f758e"
   integrity sha512-0poP0T7el6Vq3rstR8Mn4V/IQrpBLO6POkUSrN7RhyY+GF/InCFShQzsQ39T25gkHhLgSLByyAz+Kjb+c2L98w==
   dependencies:
     clean-stack "^4.0.0"
+    indent-string "^5.0.0"
+
+aggregate-error@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/aggregate-error/-/aggregate-error-5.0.0.tgz#ffe15045d7521c51c9d618e3d7f37c13f29b3fd3"
+  integrity sha512-gOsf2YwSlleG6IjRYG2A7k0HmBMEo6qVNk9Bp/EaLgAJT5ngH6PXbqa4ItvnEwCm/velL5jAnQgsHsWnjhGmvw==
+  dependencies:
+    clean-stack "^5.2.0"
     indent-string "^5.0.0"
 
 ajv-formats@^2.1.1:
@@ -4005,6 +4013,13 @@ clean-stack@^4.0.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-4.2.0.tgz#c464e4cde4ac789f4e0735c5d75beb49d7b30b31"
   integrity sha512-LYv6XPxoyODi36Dp976riBtSY27VmFo+MKqEU9QCCWyTrdEPDog+RWA7xQWHi6Vbp61j5c4cdzzX1NidnwtUWg==
+  dependencies:
+    escape-string-regexp "5.0.0"
+
+clean-stack@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-5.2.0.tgz#c7a0c91939c7caace30a3bf254e8a8ac276d1189"
+  integrity sha512-TyUIUJgdFnCISzG5zu3291TAsE77ddchd0bepon1VVQrKLGKFED4iXFEDQ24mIPdPBbyE16PK3F8MYE1CmcBEQ==
   dependencies:
     escape-string-regexp "5.0.0"
 
