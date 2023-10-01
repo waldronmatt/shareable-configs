@@ -44,7 +44,7 @@
   },
   "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/auto-config#readme",
   "dependencies": {
-    "@auto-it/conventional-commits": "^10.37.6"
+    "@auto-it/conventional-commits": "^11.0.4"
   },
   "peerDependencies": {
     "auto": ">= 10"
