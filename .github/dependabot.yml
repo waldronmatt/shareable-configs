@@ -1,23 +1,23 @@
----
-version: 2
-updates:
-  # Maintain dependencies for npm
-  - package-ecosystem: 'npm'
-    directory: '/'
-    schedule:
-      interval: 'monthly'
-    open-pull-requests-limit: 20
-    ignore:
-      # ignore all babel libraries
-      - dependency-name: '@babel/plugin-transform-runtime'
-      - dependency-name: '@babel/preset-env'
-      - dependency-name: '@babel/runtime'
-      - dependency-name: 'core-js'
-      # ignore all commitizen libraries
-      - dependency-name: 'cz-conventional-changelog'
+# ---
+# version: 2
+# updates:
+#   # Maintain dependencies for npm
+#   - package-ecosystem: 'npm'
+#     directory: '/'
+#     schedule:
+#       interval: 'monthly'
+#     open-pull-requests-limit: 20
+#     ignore:
+#       # ignore all babel libraries
+#       - dependency-name: '@babel/plugin-transform-runtime'
+#       - dependency-name: '@babel/preset-env'
+#       - dependency-name: '@babel/runtime'
+#       - dependency-name: 'core-js'
+#       # ignore all commitizen libraries
+#       - dependency-name: 'cz-conventional-changelog'
 
-  # Maintain dependencies for GitHub Actions
-  - package-ecosystem: 'github-actions'
-    directory: '/'
-    schedule:
-      interval: 'monthly'
+#   # Maintain dependencies for GitHub Actions
+#   - package-ecosystem: 'github-actions'
+#     directory: '/'
+#     schedule:
+#       interval: 'monthly'
