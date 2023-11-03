@@ -1,6 +1,6 @@
 {
   "name": "@waldronmatt/eslint-config",
-  "version": "1.5.15",
+  "version": "1.5.16",
   "description": "A shareable eslint configuration for projects.",
   "main": "index.js",
   "files": [
